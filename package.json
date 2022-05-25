@@ -1,0 +1,37 @@
+{
+  "name": "boilerplate-react",
+  "version": "1.0.0",
+  "description": "Boilerplate for creating JavaScript projects based on React framework. It contains the basic configuration of webpack and babel.",
+  "main": "src/app.js",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lszymanski7/boilerplate-react.git"
+  },
+  "author": "Łukasz Szymański",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lszymanski7/boilerplate-react/issues"
+  },
+  "homepage": "https://github.com/lszymanski7/boilerplate-react#readme",
+  "dependencies": {
+    "normalize.css": "^8.0.1"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.17.10",
+    "@babel/core": "^7.18.0",
+    "@babel/preset-env": "^7.18.0",
+    "babel-loader": "^8.2.5",
+    "css-loader": "^6.7.1",
+    "html-webpack-plugin": "^5.5.0",
+    "node-sass": "^7.0.1",
+    "sass-loader": "^13.0.0",
+    "style-loader": "^3.3.1",
+    "webpack": "^5.72.1",
+    "webpack-cli": "^4.9.2",
+    "webpack-dev-server": "^4.9.0"
+  }
+}
