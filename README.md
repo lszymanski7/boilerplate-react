@@ -17,7 +17,7 @@
 
 <!-- DESCRIPTION -->
 ## Description
-Boilerplate for creating JavaScript projects based on React framework. Includes basic Webpack and Babel configuration. It also allows to use Redux and React Router.
+Boilerplate for creating JavaScript projects based on the React library. Includes basic Webpack and Babel configuration. It also allows to use Redux and React Router.
 	
 <!-- TECHNOLOGIES -->
 ## Technologies
