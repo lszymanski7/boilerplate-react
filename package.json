@@ -1,7 +1,7 @@
 {
   "name": "boilerplate-react",
   "version": "1.0.0",
-  "description": "Boilerplate for creating JavaScript projects based on React framework. It contains the basic configuration of webpack and babel.",
+  "description": "Boilerplate for creating JavaScript projects based on React framework. Includes basic Webpack and Babel configuration. It also allows to use Redux and React Router.",
   "main": "src/app.js",
   "private": true,
   "scripts": {
