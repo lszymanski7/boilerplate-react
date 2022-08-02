@@ -7,66 +7,67 @@
   	"main": "src/index.js",
   	"private": true,
   	"scripts": {
-		"build:dev": "webpack --config config/webpack.dev.js",
-		"build:prod": "webpack --config config/webpack.prod.js",
-		"dev-server": "webpack serve --config config/webpack.dev.js",
-		"eslint:check": "npx eslint .",
-		"eslint:fix": "npx eslint --fix .",
-		"heroku-postbuild": "npm run build:prod",
-		"prettier:check": "npx prettier --check .",
-		"prettier:fix": "npx prettier --write .",
-		"start": "node server/server.js",
-		"test": "jest --config config/jest.config.js",
-		"test:coverage": "jest --config config/jest.config.js --coverage",
-		"test:watch": "jest --config config/jest.config.js --watch"
+  	  	"build:dev": "webpack --config config/webpack.dev.js",
+  	  	"build:prod": "webpack --config config/webpack.prod.js",
+  	  	"dev-server": "webpack serve --config config/webpack.dev.js",
+  	  	"eslint:check": "npx eslint .",
+  	  	"eslint:fix": "npx eslint --fix .",
+  	  	"heroku-postbuild": "npm run build:prod",
+  	  	"prettier:check": "npx prettier --check .",
+  	  	"prettier:fix": "npx prettier --write .",
+  	  	"start": "node server/server.js",
+  	  	"test": "jest --config config/jest.config.js",
+  	  	"test:coverage": "jest --config config/jest.config.js --coverage",
+  	  	"test:watch": "jest --config config/jest.config.js --watch"
   	},
   	"repository": {
-    	"type": "git",
-    	"url": "git+https://github.com/lszymanski7/boilerplate-react.git"
+  	  	"type": "git",
+  	  	"url": "git+https://github.com/lszymanski7/boilerplate-react.git"
   	},
   	"bugs": {
-    	"url": "https://github.com/lszymanski7/boilerplate-react/issues"
+  	  	"url": "https://github.com/lszymanski7/boilerplate-react/issues"
   	},
   	"homepage": "https://github.com/lszymanski7/boilerplate-react#readme",
   	"dependencies": {
-    	"normalize.css": "^8.0.1",
-    	"react": "^18.1.0",
-    	"react-dom": "^18.1.0",
-   		"react-redux": "^8.0.2",
-    	"react-router-dom": "^6.3.0",
-    	"redux": "^4.2.0"
+  	  	"normalize.css": "^8.0.1",
+  	  	"react": "^18.1.0",
+  	  	"react-dom": "^18.1.0",
+  	  	"react-redux": "^8.0.2",
+  	  	"react-router-dom": "^6.3.0",
+  	  	"redux": "^4.2.0"
   	},
   	"devDependencies": {
-		"@babel/cli": "^7.17.10",
-		"@babel/core": "^7.18.0",
-		"@babel/preset-env": "^7.18.0",
-		"@babel/preset-react": "^7.17.12",
-		"babel-loader": "^8.2.5",
-		"copy-webpack-plugin": "^11.0.0",
-		"css-loader": "^6.7.1",
-		"css-minimizer-webpack-plugin": "^4.0.0",
-		"html-loader": "^4.1.0",
-		"html-webpack-plugin": "^5.5.0",
-		"mini-css-extract-plugin": "^2.6.1",
-		"sass": "^1.53.0",
-		"sass-loader": "^13.0.0",
-		"style-loader": "^3.3.1",
-		"terser-webpack-plugin": "^5.3.3",
-		"webpack": "^5.72.1",
-		"webpack-cli": "^4.9.2",
-		"webpack-dev-server": "^4.9.0",
-		"webpack-merge": "^5.8.0"
+  	  	"@babel/cli": "^7.17.10",
+  	  	"@babel/core": "^7.18.0",
+  	  	"@babel/plugin-proposal-object-rest-spread": "^7.18.9",
+  	  	"@babel/preset-env": "^7.18.0",
+  	  	"@babel/preset-react": "^7.17.12",
+  	  	"babel-loader": "^8.2.5",
+  	  	"copy-webpack-plugin": "^11.0.0",
+  	  	"css-loader": "^6.7.1",
+  	  	"css-minimizer-webpack-plugin": "^4.0.0",
+  	  	"html-loader": "^4.1.0",
+  	  	"html-webpack-plugin": "^5.5.0",
+  	  	"mini-css-extract-plugin": "^2.6.1",
+  	  	"sass": "^1.53.0",
+  	  	"sass-loader": "^13.0.0",
+  	  	"style-loader": "^3.3.1",
+  	  	"terser-webpack-plugin": "^5.3.3",
+  	  	"webpack": "^5.72.1",
+  	  	"webpack-cli": "^4.9.2",
+  	  	"webpack-dev-server": "^4.9.0",
+  	  	"webpack-merge": "^5.8.0"
   	},
-	"browserslist": {
-		"production": [
-			">0.2%",
-			"not dead",
-			"not op_mini all"
-		],
-		"development": [
-			"last 1 chrome version",
-			"last 1 firefox version",
-			"last 1 safari version"
-		]
-	}
+  	"browserslist": {
+  	  	"production": [
+  	  	  	">0.2%",
+  	  	  	"not dead",
+  	  	  	"not op_mini all"
+  	  	],
+  	  	"development": [
+  	  	  	"last 1 chrome version",
+  	  	  	"last 1 firefox version",
+  	  	  	"last 1 safari version"
+  	  	]
+  	}
 }
