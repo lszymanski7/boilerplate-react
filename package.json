@@ -29,6 +29,7 @@
   	},
   	"homepage": "https://github.com/lszymanski7/boilerplate-react#readme",
   	"dependencies": {
+  	  	"express": "^4.18.1",
   	  	"normalize.css": "^8.0.1",
   	  	"react": "^18.1.0",
   	  	"react-dom": "^18.1.0",
