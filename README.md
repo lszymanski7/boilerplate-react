@@ -174,22 +174,3 @@ This project is licensed under the terms of the **MIT** license.
   [![Twitter](https://img.shields.io/twitter/follow/lszymanski7_?label=Twitter&style=social)](https://twitter.com/lszymanski7_)
   
 </div>
-
-
-
-
-
-
-
-<!-- DESCRIPTION -->
-## Description
-Boilerplate for creating JavaScript projects based on the React library. Includes basic Webpack and Babel configuration. It also allows to use Redux and React Router.
-	
-<!-- TECHNOLOGIES -->
-## Technologies
-This project was created with:
-- [React 18](https://reactjs.org/)
-- [Redux 4](https://redux.js.org/)
-- [React Router 6](https://reactrouter.com/)
-- [Babel 7](https://babeljs.io/)
-- [Webpack 5](https://webpack.js.org/)
