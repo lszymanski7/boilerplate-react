@@ -82,14 +82,6 @@
 		}
 	],
 	"settings": {
-		"import/resolver": {
-			"webpack": {
-				"extensions": [
-					".js",
-					".jsx"
-				]
-			}
-		},
 		"react": {
 			"version": "detect"
 		},
