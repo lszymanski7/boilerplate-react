@@ -1,13 +1,17 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
+import { Provider } from 'react-redux'
 import Boilerplate from './components/Boilerplate'
+import store from './store/setupStore'
 import 'normalize.css/normalize.css'
 import './assets/styles/styles.scss'
 
 const root = ReactDOM.createRoot(document.getElementById('root'))
 
 root.render(
-	<Boilerplate />
+    <Provider store={store}>
+	    <Boilerplate />
+    </Provider>
 )
 
 console.log(
