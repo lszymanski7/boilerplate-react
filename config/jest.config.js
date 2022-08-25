@@ -7,10 +7,7 @@ module.exports = {
 		'<rootDir>/src/selectors/**'
 	],
 	coverageDirectory: '<rootDir>/coverage',
-	coverageReporters: [
-		'html', 
-		'text'
-	],
+	coverageReporters: ['html', 'text'],
 	coverageThreshold: {
 		global: {
 			branches: 80,
@@ -25,7 +22,7 @@ module.exports = {
 	testMatch: ['**/?(*.)+(spec|test).[jt]s?(x)'],
 	transform: {
 		'\\.[jt]sx?$': 'babel-jest',
-		'\\.(jpg|jpeg|png|gif|eot|otf|webp|svg|ttf|woff|woff2|mp4|webm|wav|mp3|m4a|aac|oga)$': '<rootDir>/src/__tests__/fileTransformer.js'
+		'\\.(png|jpe?g|gif|svg|ico|webp|tiff|woff(2)?|eot|ttf|otf|mp4|webm|wav|mp3|m4a|aac|oga)$': '<rootDir>/src/utils/file-transformer.js'
 	},
 	verbose: true
 }
