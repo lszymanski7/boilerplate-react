@@ -51,7 +51,6 @@ module.exports = merge(common, {
         hot: true,
 		liveReload: false,
         open: true,
-        port: 8080,
-		static: false
+        port: 8080
     }
 })
