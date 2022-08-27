@@ -25,46 +25,44 @@ Boilerplate for creating projects in the JavaScript programming language based o
 
 <!-- TABLE OF CONTENTS -->
 ## Table of Contents
-<ol>
-  <li><a href="#features">Features</a></li>
-  <li><a href="#technologies">Technologies</a></li>
-  <li>
-    <a href="#getting-started">Getting Started</a>
-    <ul>
-      <li><a href="#prerequisites">Prerequisites</a></li>
-      <li><a href="#installation">Installation</a></li>
-    </ul>
-  </li>
-  <li><a href="#scripts">Scripts</a></li>
-  <li><a href="#bugs-and-features">Bugs and Features</a></li>
-  <li><a href="#license">License</a></li>
-</ol>
-  
+1. [Features](#features)
+2. [Technologies](#technologies)
+3. [Development](#development)
+    - [Prerequisites](#prerequisites)
+    - [Installation](#installation)
+    - [Webpack](#webpack)
+    - [ESLint](#eslint)
+    - [Prettier](#prettier)
+4. [Testing](#testing)
+5. [Production](#production)
+6. [Deployment](#deployment)
+7. [Contributing](#contributing)
+8. [Acknowledgements](#acknowledgements)
+9. [License](#license)
+
 <!-- FEATURES -->
 ## Features
 - Configured Redux store with the following properties:
   - Redux Logger added as middleware,
   - Redux DevTools disabled for production.
-- Webpack configuration split into three files to separate the production and development environments. Provides support for Webpack Dev Server and plugins such as: 
-  - html-webpack-plugin,
-  - copy-webpack-plugin,
-  - mini-css-extract-plugin,
-  - css-minimizer-webpack-plugin,
-  - terser-webpack-plugin.
+- Webpack configuration split into three files to separate development and production environments. Provides support for `webpack-dev-server` and plugins such as: 
+  - `html-webpack-plugin`,
+  - `copy-webpack-plugin`,
+  - `mini-css-extract-plugin`,
+  - `css-minimizer-webpack-plugin`,
+  - `terser-webpack-plugin`.
 - Converting ECMAScript 2015+ code into a backwards compatible version of JavaScript. 
-- Possibility to conduct unit tests.
+- Possibility to conduct unit tests and generate code coverage.
 - A simple Express server that allows you to deploy your application in Heroku.
 - Checking JavaScript code to find existing problems.
 - Formatting all supported files.
 
 <!-- TECHNOLOGIES -->
 ## Technologies
-The following technologies and tools were used in the project:
-
 ![JavaScript](https://img.shields.io/badge/JavaScript-424242?style=flat&logo=javascript&logoColor=F7DF1E)
 ![HTML](https://img.shields.io/badge/HTML-424242?style=flat&logo=html5&logoColor=E34F26)
 ![CSS](https://img.shields.io/badge/CSS-424242?style=flat&logo=css3&logoColor=1572B6)
-[![SASS](https://img.shields.io/badge/SASS%20|%20v1.53.0-424242?style=flat&logo=SASS&logoColor=CC6699)](https://sass-lang.com)
+[![Sass](https://img.shields.io/badge/Sass%20|%20v1.53.0-424242?style=flat&logo=SassS&logoColor=CC6699)](https://sass-lang.com)
 [![React](https://img.shields.io/badge/React%20|%20v18.1.0-424242?style=flat&logo=react&logoColor=61DAFB)](https://reactjs.org)
 [![Redux](https://img.shields.io/badge/Redux%20|%20v4.2.0-424242?style=flat&logo=redux&logoColor=764ABC)](https://redux.js.org)
 [![React Router](https://img.shields.io/badge/React%20Router%20|%20v6.3.0-424242?logo=react-router&logoColor=CA4245)](https://reactrouter.com)
@@ -78,99 +76,168 @@ The following technologies and tools were used in the project:
 [![ESLint](https://img.shields.io/badge/ESLint%20%7C%20v8.19.0-424242?style=flat&logo=eslint&logoColor=4B32C3)](https://eslint.org)
 [![Prettier](https://img.shields.io/badge/Prettier%20%7C%20v2.7.1-424242?style=flat&logo=prettier&logoColor=F7B93E)](https://prettier.io)
 
-<!-- Getting Started -->
-## Getting Started
+All technologies and tools were used in the latest version at the time of creating this project.
 
-<!-- Prerequisites -->
+<!-- DEVELOPMENT -->
+## Development
+
+<!-- PREREQUISITES -->
 ### Prerequisites
-> You can download Node.js installer [here](https://nodejs.org/en/download).
+> **Note** Download [Node.js](https://nodejs.org/en/download) installer.
 
-This project was created using the Node.js (v18.6.0) runtime environment and the NPM (v8.15.0) for package management. Use the Node.js installer to install both of them on your system.
-  
-<!-- Installation -->
+This project was created with the Node.js (v18.6.0) runtime environment and the NPM (v8.15.0) for package management. Use the Node.js installer to install both of them on your system.
+
+<!-- INSTALLATION -->
 ### Installation
-Follow all of the steps below to get a local copy of the project and be able to run it.
+Follow all of the steps below to get a local copy of the project and install any dependencies required to run it.
 
 1. Clone the repository.
+
 ```
-git clone https://github.com/lszymanski7/boilerplate-react.git
+$ git clone https://github.com/lszymanski7/boilerplate-react.git
 ```
+
 2. Navigate to the project directory.
+
 ```
-cd boilerplate-react
+$ cd boilerplate-react
 ```
+
 3. Install all dependencies.
+
 ```
-npm install
-```
-4. Start the Express server.
-```
-npm run start
+$ npm install
 ```
 
-The application will be launched at the following url: <a href="http://localhost:3000">http://localhost:3000<a/>
+<!-- WEBPACK -->
+### Webpack
+The development environment mainly focuses on strong source mapping and using localhost server with live reload or hot module replacement. This makes it easier to find errors and you don't have to manually run the command to compile your code whenever it changes.
 
-<!-- SCRIPTS -->
-## Scripts
-The available scripts with descriptions are listed below.
+In this environment, the webpack configuration uses `eval-source-map` as devtool. It provides fast rebuild and correctly mapped line numbers, which is very helpful in the development process. 
 
-```properties
-# Run Webpack with development configuration.
-npm run build:dev
+If you want to run  `webpack-dev-server` with Hot Module Replacement (HMR), use the command below. The application will be launched at the following url: [http://localhost:8080](http://localhost:8080)
 
-# Run Webpack with production configuration.
-npm run build:prod
-
-# Start the Webpack Dev Server and run the application at the following url: http://localhost:8080
-npm run dev-server
-
-# Run ESLint to check JavaScript code and find problems.
-npm run eslint:check
-
-# Run ESLint to find issues and try to fix them. Not all problems are fixable using this option.
-npm run eslint:fix
-
-# Execute build:prod script on Heroku.
-npm run heroku-postbuild
-
-# Run Prettier to check if all supported files are formatted. 
-npm run prettier:check
-
-# Run Prettier to format all supported files in the current directory and its subdirectories.
-npm run prettier:fix
-
-# Start the Express server and run the application at the following url: http://localhost:3000
-npm run start
-
-# Run all tests with the settings specified in the configuration file.
-npm run test
-
-# Generate code coverage report.
-npm run test:coverage
-
-# Run all tests in watch mode.
-npm run test:watch
 ```
-  
-<!-- BUGS AND FEATURES -->
-## Bugs and Features  
-> You can report bugs and request new features [here](https://github.com/lszymanski7/boilerplate-react/issues). 
-  
-Please search the existing bugs and feature requests before you file one yourself.
+$ npm run dev-server
+```
+
+<!-- ESLINT -->
+### ESLint
+ESLint is a tool designed to find and fix problems in ECMAScript/JavaScript code. Thanks to its use, the code is more consistent and free from common bugs. It's also fully customizable. You can disable any rule that doesn't meet your project's requirements.
+
+Run the command below to check JavaScript code and find any existing problems.
+
+```
+$ npm run eslint:check
+```
+
+Another command allows you to find issues and fix them. Keep in mind that not all problems are fixable using this option. You can also ignore specific files and directories from this process in the [.eslintignore](https://github.com/lszymanski7/boilerplate-react/blob/main/.eslintignore) file.
+
+> **Warning** This overwrites your files!
+
+```
+$ npm run eslint:fix
+```
+
+<!-- PRETTIER -->
+### Prettier
+Prettier is an opinionated code formatter. This tool enforces a consistent code style and allows you to define the formatting rules according to your preferences. Its use will significantly save your time and energy. 
+
+In this project, there are two commands at your disposal. The first one checks that all files are formatted.
+
+```
+$ npm run prettier:check
+```
+
+To format all files supported by Prettier in the current directory and its subdirectories, run the second command. If you want to ignore things that shouldn't be formatted, you can use a [.prettierignore](https://github.com/lszymanski7/boilerplate-react/blob/main/.prettierignore) file.
+
+> **Warning** This overwrites your files!
+
+```
+$ npm run prettier:fix
+```
+
+<!-- TESTING -->
+## Testing
+This project uses Jest. It's a JavaScript testing framework designed to ensure the correctness of the code. Jest allows you to write tests that returns results quickly. Moreover, this tool can be extended to suit your project's requirements.
+
+Use one of these two scripts to run your tests. The second option turns on the watch mode. After the testing process is complete, the relevant information will be displayed to the console.
+
+```
+$ npm run test
+$ npm run test:watch
+```
+
+The command below is used to collect code coverage information from directories specified in the [jest.config.js](https://github.com/lszymanski7/boilerplate-react/blob/main/config/jest.config.js) file. All output files will be available in the `./coverage` folder.
+
+```
+$ npm run test:coverage
+```
+
+<!-- PRODUCTION -->
+## Production
+In a production environment, the build process mainly focuses on minified bundles, lighter weight source maps and optimized assets. This is all to improve load time.
+
+For the reasons above, the webpack configuration uses `source-map` as devtool in this environment. It creates high-quality source maps. Besides, the following three plugins were also used:
+- `mini-css-extract-plugin` - extracts CSS into separate files,
+- `css-minimizer-webpack-plugin` - optimizes and minifies CSS,
+- `terser-webpack-plugin` - optimizes and minifies JavaScript.
+
+Use the command below to run webpack and create a production build.
+
+```
+$ npm run build
+```
+
+The next command starts the Express server. All static files generated by webpack will be served from the `./build` folder. The application will be launched at the following url: [http://localhost:3000](http://localhost:3000)
+
+```
+$ npm run start
+```
+
+<!-- DEPLOYMENT -->
+## Deployment
+> **Note** Download [Git](https://git-scm.com/downloads) and [Heroku CLI](https://devcenter.heroku.com/articles/heroku-cli#install-the-heroku-cli) installers.
+
+This project is adapted for deploying applications to Heroku using Git. First of all, you must have Git and Heroku CLI installed on your machine. Once both tools are configured, initialize a local Git repository and commit your code to it.
+
+The next step is to create a new empty application on Heroku. You can do this with the `heroku create` command. It'll also set up a `heroku` remote for your local repository.
+
+```
+$ heroku create -a herokuapp-name
+```
+
+If you've already created a Heroku app, you can use the command below to add a remote to your local repository.
+
+```
+$ heroku git:remote -a herokuapp-name
+```
+
+After everything is set up, you can finally deploy your code to Heroku. Run the `git push` command to complete this process. Your code will be pushed from local repository’s `main` branch to `heroku` remote.
+
+```
+$ git push heroku main
+```
+
+<!-- CONTRIBUTING -->
+## Contributing
+Any contributions are greatly appreciated. Use the [issue tracker](https://github.com/lszymanski7/boilerplate-react/issues) if you want to report bugs, request a new feature or improve documentation. Please check for existing issues before you report them yourself.
+
+<!-- ACKNOWLEDGEMENTS -->
+## Acknowledgements
+- For more info about 7-1 Sass Architecture, please refer to [Sass Guidelines](https://sass-guidelin.es/#architecture) by Kitty Giraudel.
 
 <!-- LICENSE -->
 ## License
-> You can check out the full license [here](https://github.com/lszymanski7/boilerplate-react/blob/main/LICENSE.md).
-  
-This project is licensed under the terms of the **MIT** license.
-  
+This project is licensed under the terms of the [MIT License](https://github.com/lszymanski7/boilerplate-react/blob/main/LICENSE.md).
+
 <br/>
- 
+
 <!-- LINKS -->
 ##
 <div align="center">
   <p>Connect with me:</p>
-  
+
   [![Stack Overflow](https://img.shields.io/badge/Stack%20Overflow-F58025?style=flat&logo=stackoverflow&logoColor=white)](https://stackoverflow.com/users/18706083)
   [![GitLab](https://img.shields.io/badge/GitLab-424242?style=flat&logo=gitlab)](https://gitlab.com/lszymanski7)
   [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat&logo=linkedin)](https://linkedin.com/in/lszymanski7)
