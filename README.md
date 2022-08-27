@@ -62,7 +62,7 @@ Boilerplate for creating projects in the JavaScript programming language based o
 ![JavaScript](https://img.shields.io/badge/JavaScript-424242?style=flat&logo=javascript&logoColor=F7DF1E)
 ![HTML](https://img.shields.io/badge/HTML-424242?style=flat&logo=html5&logoColor=E34F26)
 ![CSS](https://img.shields.io/badge/CSS-424242?style=flat&logo=css3&logoColor=1572B6)
-[![Sass](https://img.shields.io/badge/Sass%20|%20v1.53.0-424242?style=flat&logo=SassS&logoColor=CC6699)](https://sass-lang.com)
+[![Sass](https://img.shields.io/badge/Sass%20|%20v1.53.0-424242?style=flat&logo=Sass&logoColor=CC6699)](https://sass-lang.com)
 [![React](https://img.shields.io/badge/React%20|%20v18.1.0-424242?style=flat&logo=react&logoColor=61DAFB)](https://reactjs.org)
 [![Redux](https://img.shields.io/badge/Redux%20|%20v4.2.0-424242?style=flat&logo=redux&logoColor=764ABC)](https://redux.js.org)
 [![React Router](https://img.shields.io/badge/React%20Router%20|%20v6.3.0-424242?logo=react-router&logoColor=CA4245)](https://reactrouter.com)
