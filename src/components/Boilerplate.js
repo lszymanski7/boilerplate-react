@@ -5,11 +5,11 @@ const Boilerplate = () => {
     return (
         <div className="container">
             <img
-                className="container__logo"
+                className="img-logo"
                 src={logo.size_256x256}
-                alt="React Boilerplate"
+                alt="React Logo"
             />
-            <h1 className="container__title">React Boilerplate</h1>
+            <h1 className="text-white">React Boilerplate</h1>
         </div>
     )
 }
