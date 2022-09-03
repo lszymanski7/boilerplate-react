@@ -70,7 +70,7 @@ Boilerplate for creating projects in the JavaScript programming language based o
 [![React Router](https://img.shields.io/badge/React%20Router%20|%20v6.3.0-555555?logo=react-router&logoColor=CA4245)](https://reactrouter.com)
 [![Webpack](https://img.shields.io/badge/Webpack%20|%20v5.72.1-555555?style=flat&logo=webpack&logoColor=8DD6F9)](https://webpack.js.org)
 [![Babel](https://img.shields.io/badge/Babel%20|%20v7.18.10-555555?style=flat&logo=babel&logoColor=F9DC3E)](https://babeljs.io)
-[![Jest](https://img.shields.io/badge/Jest%20|%20v29.0.1-555555?style=flat&logo=jest&logoColor=C21325)](https://jestjs.io)
+[![Jest](https://img.shields.io/badge/Jest%20|%20v29.0.2-555555?style=flat&logo=jest&logoColor=C21325)](https://jestjs.io)
 [![Testing Library](https://img.shields.io/badge/Testing%20Library%20|%20v8.16.0-555555?style=flat&logo=testinglibrary&logoColor=E33332)](https://testing-library.com)
 [![Node.js](https://img.shields.io/badge/Node.js%20|%20v18.6.0-555555?style=flat&logo=node.js&logoColor=339933)](https://nodejs.org/en)
 [![Npm](https://img.shields.io/badge/Npm%20|%20v8.15.0-555555?style=flat&logo=npm&logoColor=CB3837)](https://npmjs.com)
@@ -224,6 +224,14 @@ $ git push heroku main
 <!-- CONTRIBUTING -->
 ## Contributing
 Any contributions are greatly appreciated. Use the [issue tracker](https://github.com/lszymanski7/boilerplate-react/issues) if you want to report bugs, request a new feature or improve documentation. Please check for existing issues before you report them yourself.
+
+You can contribute by following these steps:
+1. Fork this repository on GitHub.
+2. Clone the forked repository to your machine: `$ git clone https://github.com/username/boilerplate-react.git`
+3. Create a new branch: `$ git switch -c <branch-name>`
+4. Make necessary changes and commit them.
+5. Push changes to GitHub: `$ git push origin -u <branch-name>`
+6. Submit a new Pull Request on GitHub.
 
 <!-- ACKNOWLEDGEMENTS -->
 ## Acknowledgements
