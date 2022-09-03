@@ -1,92 +1,81 @@
 {
-	"root": true,
-	"env": {
-		"browser": true,
-		"es2022": true,
-		"node": true
-	},
-	"extends": [
-		"eslint:recommended",
-		"plugin:import/recommended",
-		"plugin:react/recommended",
-		"plugin:react-hooks/recommended",
-		"prettier"
-	],
-	"parserOptions": {
-		"ecmaVersion": "latest",
-		"sourceType": "module",
-		"ecmaFeatures": {
-			"jsx": true
-		}
-	},
-	"plugins": [
-		"import",
-		"react",
-		"react-hooks"
-	],
-	"rules": {
-		"no-duplicate-imports": "warn",
-		"prefer-const": "warn",
-		"react/no-array-index-key": "warn",
-		"react/no-arrow-function-lifecycle": "warn",
-		"react/no-multi-comp": "warn",
-		"react/no-this-in-sfc": "warn",
-		"react/no-typos": "warn",
-		"react/self-closing-comp": "warn",
-		"react/jsx-curly-newline": "warn",
-		"react/jsx-equals-spacing": [
-			"warn",
-			"never"
-		],
-		"react/jsx-props-no-multi-spaces": "warn"
-	},
-	"overrides": [
-		{
-			"env": {
-				"jest": true
-			},
-			"extends": [
-				"plugin:jest/recommended"
-			],
-			"files": [
-				"**/*.test.js"
-			],
-			"plugins": [
-				"jest"
-			],
-			"rules": {
-				"jest/max-nested-describe": [
-					"error",
-					{
-						"max": 5
-					}
-				],
-				"jest/no-duplicate-hooks": "error",
-				"jest/no-test-return-statement": "error",
-				"jest/prefer-comparison-matcher": "warn",
-				"jest/prefer-equality-matcher": "warn",
-				"jest/prefer-lowercase-title": [
-					"warn",
-					{
-						"ignore": [
-							"describe",
-							"test"
-						]
-					}
-				],
-				"jest/prefer-to-be": "warn",
-				"jest/prefer-to-contain": "warn",
-				"jest/prefer-to-have-length": "warn",
-				"jest/require-to-throw-message": "warn"
-			}
-		}
-	],
-	"settings": {
-		"react": {
-			"version": "detect"
-		},
-		"jest": {
-			"version": "detect"
-		}
-	}
+    "root": true,
+    "env": {
+        "browser": true,
+        "es2022": true,
+        "node": true
+    },
+    "extends": [
+        "eslint:recommended",
+        "plugin:import/recommended",
+        "plugin:react/recommended",
+        "plugin:react-hooks/recommended",
+        "prettier"
+    ],
+    "parserOptions": {
+        "ecmaVersion": "latest",
+        "sourceType": "module",
+        "ecmaFeatures": {
+            "jsx": true
+        }
+    },
+    "plugins": [
+        "import", 
+        "react", 
+        "react-hooks"
+    ],
+    "rules": {
+        "no-duplicate-imports": "warn",
+        "no-self-compare": "warn",
+        "no-var": "error",
+        "prefer-const": "error",
+        "react/no-array-index-key": "warn",
+        "react/no-arrow-function-lifecycle": "warn",
+        "react/no-multi-comp": "warn",
+        "react/no-this-in-sfc": "warn",
+        "react/no-typos": "warn",
+        "react/self-closing-comp": "warn",
+        "react/jsx-curly-newline": "warn",
+        "react/jsx-equals-spacing": ["warn", "never"],
+        "react/jsx-props-no-multi-spaces": "warn"
+    },
+    "overrides": [
+        {
+            "env": {
+                "jest": true
+            },
+            "extends": ["plugin:jest/recommended"],
+            "files": ["**/*.spec.[jt]s?(x)", "**/*.test.[jt]s?(x)"],
+            "plugins": ["jest"],
+            "rules": {
+                "jest/max-nested-describe": [
+                    "error",
+                    {
+                        "max": 5
+                    }
+                ],
+                "jest/no-duplicate-hooks": "error",
+                "jest/no-test-return-statement": "error",
+                "jest/prefer-comparison-matcher": "warn",
+                "jest/prefer-equality-matcher": "warn",
+                "jest/prefer-lowercase-title": [
+                    "warn",
+                    {
+                        "ignore": ["describe", "test"]
+                    }
+                ],
+                "jest/prefer-to-be": "warn",
+                "jest/prefer-to-contain": "warn",
+                "jest/prefer-to-have-length": "warn"
+            }
+        }
+    ],
+    "settings": {
+        "react": {
+            "version": "detect"
+        },
+        "jest": {
+            "version": "detect"
+        }
+    }
 }

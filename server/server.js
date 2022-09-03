@@ -1,15 +1,14 @@
 const express = require('express')
 const path = require('path')
-const distPath = path.resolve(__dirname, '../dist')
 const app = express()
 const port = process.env.PORT || 3000
 
-app.use(express.static(distPath))
+app.use(express.static(path.resolve(__dirname, '../build')))
 
-app.get('*', (request, response) => {
-	response.sendFile(path.resolve(distPath, 'index.html'))
+app.get('/', (req, res) => {
+    res.sendFile(path.resolve(__dirname, '../build/index.html'))
 })
 
 app.listen(port, () => {
-	console.log(`Express server listening on port: ${port}`)
+    console.log(`Express server listening on port: ${port}`)
 })
