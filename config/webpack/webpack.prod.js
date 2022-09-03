@@ -10,13 +10,13 @@ module.exports = merge(common, {
     stats: 'normal',
     output: {
         filename: 'static/js/[name].[contenthash:8].js',
-        chunkFilename: 'static/js/[id].[contenthash:8].chunk.js'
+        chunkFilename: 'static/js/[name].[contenthash:8].chunk.js'
     },
     module: {
         rules: [
             // CSS | SCSS
             {
-                test: /\.(scss|css)$/,
+                test: /\.(css|scss)$/,
                 use: [MiniCssExtractPlugin.loader, 'css-loader', 'sass-loader']
             },
             // Fonts

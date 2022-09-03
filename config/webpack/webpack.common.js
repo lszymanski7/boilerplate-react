@@ -4,10 +4,10 @@ const HtmlWebpackPlugin = require('html-webpack-plugin')
 
 module.exports = {
     entry: {
-        main: path.resolve(__dirname, '../src/index.js')
+        main: path.resolve(__dirname, '../../src/index.js')
     },
     output: {
-        path: path.resolve(__dirname, '../build'),
+        path: path.resolve(__dirname, '../../build'),
         clean: true
     },
     module: {
@@ -29,19 +29,18 @@ module.exports = {
         new CopyPlugin({
             patterns: [
                 {
-                    from: path.resolve(__dirname, '../public/robots.txt'),
+                    from: path.resolve(__dirname, '../../public/robots.txt'),
                     to: 'robots.txt'
                 }
             ]
         }),
         new HtmlWebpackPlugin({
             filename: 'index.html',
-            favicon: path.resolve(__dirname, '../public/favicon.ico'),
-            template: path.resolve(__dirname, '../public/index.html'),
+            favicon: path.resolve(__dirname, '../../public/favicon.ico'),
+            template: path.resolve(__dirname, '../../public/index.html'),
             inject: 'body',
             minify: {
-                removeComments: true,
-                collapseWhitespace: false
+                removeComments: true
             }
         })
     ]

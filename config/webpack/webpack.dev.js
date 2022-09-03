@@ -13,7 +13,7 @@ module.exports = merge(common, {
         rules: [
             // CSS | SCSS
             {
-                test: /\.(scss|css)$/,
+                test: /\.(css|scss)$/,
                 use: ['style-loader', 'css-loader', 'sass-loader']
             },
             // Fonts
@@ -49,7 +49,7 @@ module.exports = merge(common, {
         compress: true,
         historyApiFallback: true,
         hot: true,
-		liveReload: false,
+        liveReload: false,
         open: true,
         port: 8080
     }
