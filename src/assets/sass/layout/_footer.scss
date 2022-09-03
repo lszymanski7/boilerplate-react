@@ -1,0 +1,12 @@
+// ================================================================================================
+// Footer styles
+// ================================================================================================
+
+.footer {
+  background-color: map-get($colors, 'basic', 'gray-light');
+  color: map-get($colors, 'basic', 'white');
+  flex-shrink: 0;
+  font-size: 1.4rem;
+  padding: map-get($spaces, 'xs') 0;
+  text-align: center;
+}

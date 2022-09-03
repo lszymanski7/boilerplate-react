@@ -1,0 +1,50 @@
+// ================================================================================================
+// Home page styles
+// ================================================================================================
+
+.home-container {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  justify-content: center;
+  padding: map-get($spaces, 'xl') map-get($spaces, 'md') map-get($spaces, 'xxxl');
+  text-align: center;
+}
+
+.home-logo {
+  height: 218px;
+  width: 218px;
+}
+
+.home-title {
+  color: map-get($colors, 'basic', 'white');
+  font-size: map-get($font-sizes, 'xxl');
+  font-weight: normal;
+  padding: map-get($spaces, 'lg') 0 map-get($spaces, 'xl');
+}
+
+.home-badges {
+  a {
+    text-decoration: none;
+  }
+
+  img {
+    padding: 0.2rem map-get($spaces, 'xxs');
+  }
+}
+
+@media screen and (max-width: map-get($breakpoints, 'md')) {
+  .home-container {
+    padding: map-get($spaces, 'lg') map-get($spaces, 'md') map-get($spaces, 'xl');
+  }
+
+  .home-logo {
+    width: 128px;
+    height: 128px;
+  }
+
+  .home-title {
+    font-size: map-get($font-sizes, 'xl');
+  }
+}

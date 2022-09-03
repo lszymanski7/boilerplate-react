@@ -1,6 +1,6 @@
-// ===========================================================================
+// ================================================================================================
 // Imports
-// ===========================================================================
+// ================================================================================================
 
 // Abstracts -> Vendors -> Base -> Layout -> Components -> Pages -> Themes
 
@@ -9,15 +9,19 @@
 @import 
   './abstracts/functions',
   './abstracts/mixins',
+  './abstracts/placeholders',
   './abstracts/variables';
 
 @import 
+  './base/animations', 
   './base/base',
   './base/reset',
   './base/typography';
 
 @import 
-  './layout/container';
+  './layout/flexbox',
+  './layout/footer',
+  './layout/header';
 
 @import 
-  './components/image';
+  './pages/home';

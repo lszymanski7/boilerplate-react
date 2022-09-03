@@ -1,15 +1,11 @@
-// ===========================================================================
+// ================================================================================================
 // Typography styles
-// ===========================================================================
+// ================================================================================================
 
 body {
   color: map-get($colors, 'basic', 'black');
   font-family: $font-family-sans-serif;
   font-size: map-get($font-sizes, 'md');
-}
-
-// Text colors
-
-.text-white {
-  color: map-get($colors, 'basic', 'white');
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
 }
