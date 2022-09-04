@@ -16,9 +16,11 @@ $breakpoints: (
 // Colors
 
 $colors: (
+  'app': (
+    'gray-light': hsl(0, 0%, 33%),    // RGB: #545454
+  ),
   'basic': (
     'black': hsl(0, 0%, 0%),          // RGB: #000000
-    'gray-light': hsl(0, 0%, 33%),    // RGB: #545454
     'white': hsl(0, 0%, 100%)         // RGB: #FFFFFF
   ),
   'react': (
