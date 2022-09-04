@@ -3,7 +3,7 @@
 // ================================================================================================
 
 .footer {
-  background-color: map-get($colors, 'basic', 'gray-light');
+  background-color: map-get($colors, 'app', 'gray-light');
   color: map-get($colors, 'basic', 'white');
   flex-shrink: 0;
   font-size: 1.4rem;
