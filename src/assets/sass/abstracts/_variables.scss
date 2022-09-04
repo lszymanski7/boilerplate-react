@@ -42,9 +42,9 @@ $spaces: (
 
 // Typography
 
-$font-family-serif: 'Cambria', 'Georgia', 'Times New Roman', serif;
-$font-family-sans-serif: 'Arial', 'Calibri', 'Helvetica', 'Verdana', sans-serif;
-$font-family-monospace: 'Consolas', 'Courier', 'Monaco', monospace;
+$font-family-serif: Georgia, Times, 'Times New Roman', serif;
+$font-family-sans-serif: Arial, 'Helvetica Neue', Helvetica, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+$font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', 'Courier New', monospace;
 
 $font-sizes: (
   'xs': 0.8rem,    // 8px  | 6pt
