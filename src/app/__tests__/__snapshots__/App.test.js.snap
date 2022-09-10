@@ -6,7 +6,7 @@ exports[`App should be rendered correctly. 1`] = `
   "baseElement": <body>
     <div>
       <div
-        class="flexbox-container"
+        class="flexbox-fullscreen"
       >
         <header>
           <img
@@ -76,7 +76,7 @@ exports[`App should be rendered correctly. 1`] = `
   </body>,
   "container": <div>
     <div
-      class="flexbox-container"
+      class="flexbox-fullscreen"
     >
       <header>
         <img
