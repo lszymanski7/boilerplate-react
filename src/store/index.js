@@ -5,7 +5,10 @@ const store = configureStore({
     reducer: {
         dummyReducer: () => 'Replace Me!'
     },
-    middleware: (getDefaultMiddleware) => getDefaultMiddleware().concat(logger),
+    middleware: (getDefaultMiddleware) =>
+        process.env.NODE_ENV !== 'production'
+            ? getDefaultMiddleware().concat(logger)
+            : getDefaultMiddleware(),
     devTools: process.env.NODE_ENV !== 'production'
 })
 
