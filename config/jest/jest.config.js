@@ -6,7 +6,7 @@ module.exports = {
         '<rootDir>/src/hooks/**/*.[jt]s?(x)',
         '<rootDir>/src/layout/**/*.[jt]s?(x)',
         '<rootDir>/src/pages/**/*.[jt]s?(x)',
-        '<rootDir>/src/utils/**/*.[jt]s?(x)',
+        '<rootDir>/src/utils/**/*.[jt]s?(x)'
     ],
     coverageDirectory: '<rootDir>/coverage',
     coveragePathIgnorePatterns: [
