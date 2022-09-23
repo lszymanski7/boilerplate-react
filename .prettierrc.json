@@ -22,8 +22,7 @@
             "files": ["**/*.css", "**/*.scss"],
             "options": {
                 "semi": true,
-                "tabWidth": 2,
-                "useTabs": false
+                "tabWidth": 2
             }
         }
     ]
