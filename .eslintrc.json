@@ -13,11 +13,11 @@
         "prettier"
     ],
     "parserOptions": {
-        "ecmaVersion": "latest",
-        "sourceType": "module",
         "ecmaFeatures": {
             "jsx": true
-        }
+        },
+        "ecmaVersion": 2022,
+        "sourceType": "module"
     },
     "plugins": [
         "import", 
@@ -44,14 +44,22 @@
             "env": {
                 "jest": true
             },
-            "extends": ["plugin:jest/recommended"],
+            "extends": [
+                "plugin:jest/recommended",
+                "plugin:jest-dom/recommended",
+                "plugin:testing-library/react"
+            ],
             "files": ["**/*.spec.[jt]s?(x)", "**/*.test.[jt]s?(x)"],
-            "plugins": ["jest"],
+            "plugins": [
+                "jest",
+                "jest-dom",
+                "testing-library"
+            ],
             "rules": {
                 "jest/max-nested-describe": [
                     "error",
                     {
-                        "max": 5
+                        "max": 3
                     }
                 ],
                 "jest/no-duplicate-hooks": "error",
@@ -66,7 +74,8 @@
                 ],
                 "jest/prefer-to-be": "warn",
                 "jest/prefer-to-contain": "warn",
-                "jest/prefer-to-have-length": "warn"
+                "jest/prefer-to-have-length": "warn",
+                "testing-library/prefer-user-event": "warn"
             }
         }
     ],
