@@ -4,8 +4,8 @@ import Home from '../Home'
 
 describe('Home', () => {
     it('should be rendered correctly.', () => {
-        const component = render(<Home />)
-        expect(component).toMatchSnapshot()
+        const { container } = render(<Home />)
+        expect(container).toMatchSnapshot()
     })
 
     it('should have the correct logo.', () => {

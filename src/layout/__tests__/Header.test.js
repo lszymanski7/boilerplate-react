@@ -4,8 +4,8 @@ import Header from '../Header'
 
 describe('Header', () => {
     it('should be rendered correctly.', () => {
-        const component = render(<Header />)
-        expect(component).toMatchSnapshot()
+        const { container } = render(<Header />)
+        expect(container).toMatchSnapshot()
     })
 
     it('should have waves as a background.', () => {
