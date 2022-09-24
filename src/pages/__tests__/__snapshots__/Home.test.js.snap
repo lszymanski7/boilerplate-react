@@ -1,164 +1,56 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Home should be rendered correctly. 1`] = `
-{
-  "asFragment": [Function],
-  "baseElement": <body>
-    <div>
-      <div
-        class="home-container"
-      >
-        <img
-          alt="React Logo"
-          class="home-logo spin"
-          src="react.svg"
-        />
-        <h1
-          class="home-title"
-        >
-          React Boilerplate
-        </h1>
-        <div
-          class="home-badges"
-        >
-          <a
-            href="https://github.com/lszymanski7/boilerplate-react"
-          >
-            <img
-              alt="GitHub Badge"
-              src="https://img.shields.io/badge/GitHub-555555?style=for-the-badge&logo=github"
-            />
-          </a>
-          <img
-            alt="Version Badge"
-            src="https://img.shields.io/badge/1.0.0-blue?style=for-the-badge&label=Version&labelColor=555555"
-          />
-          <img
-            alt="Size Badge"
-            src="https://img.shields.io/github/repo-size/lszymanski7/boilerplate-react?style=for-the-badge&label=Size&labelColor=555555"
-          />
-          <a
-            href="https://github.com/lszymanski7/boilerplate-react/blob/main/LICENSE.md"
-          >
-            <img
-              alt="License Badge"
-              src="https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge&label=License&labelColor=555555"
-            />
-          </a>
-          <img
-            alt="Forks Badge"
-            src="https://img.shields.io/github/forks/lszymanski7/boilerplate-react?style=for-the-badge&color=green&label=Forks&labelColor=555555"
-          />
-          <img
-            alt="Stars Badge"
-            src="https://img.shields.io/github/stars/lszymanski7/boilerplate-react?style=for-the-badge&color=green&label=Stars&labelColor=555555"
-          />
-        </div>
-      </div>
-    </div>
-  </body>,
-  "container": <div>
-    <div
-      class="home-container"
+<div>
+  <div
+    class="home-container"
+  >
+    <img
+      alt="React Logo"
+      class="home-logo spin"
+      src="react.svg"
+    />
+    <h1
+      class="home-title"
     >
+      React Boilerplate
+    </h1>
+    <div
+      class="home-badges"
+    >
+      <a
+        href="https://github.com/lszymanski7/boilerplate-react"
+      >
+        <img
+          alt="GitHub Badge"
+          src="https://img.shields.io/badge/GitHub-555555?style=for-the-badge&logo=github"
+        />
+      </a>
       <img
-        alt="React Logo"
-        class="home-logo spin"
-        src="react.svg"
+        alt="Version Badge"
+        src="https://img.shields.io/badge/1.0.0-blue?style=for-the-badge&label=Version&labelColor=555555"
       />
-      <h1
-        class="home-title"
+      <img
+        alt="Size Badge"
+        src="https://img.shields.io/github/repo-size/lszymanski7/boilerplate-react?style=for-the-badge&label=Size&labelColor=555555"
+      />
+      <a
+        href="https://github.com/lszymanski7/boilerplate-react/blob/main/LICENSE.md"
       >
-        React Boilerplate
-      </h1>
-      <div
-        class="home-badges"
-      >
-        <a
-          href="https://github.com/lszymanski7/boilerplate-react"
-        >
-          <img
-            alt="GitHub Badge"
-            src="https://img.shields.io/badge/GitHub-555555?style=for-the-badge&logo=github"
-          />
-        </a>
         <img
-          alt="Version Badge"
-          src="https://img.shields.io/badge/1.0.0-blue?style=for-the-badge&label=Version&labelColor=555555"
+          alt="License Badge"
+          src="https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge&label=License&labelColor=555555"
         />
-        <img
-          alt="Size Badge"
-          src="https://img.shields.io/github/repo-size/lszymanski7/boilerplate-react?style=for-the-badge&label=Size&labelColor=555555"
-        />
-        <a
-          href="https://github.com/lszymanski7/boilerplate-react/blob/main/LICENSE.md"
-        >
-          <img
-            alt="License Badge"
-            src="https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge&label=License&labelColor=555555"
-          />
-        </a>
-        <img
-          alt="Forks Badge"
-          src="https://img.shields.io/github/forks/lszymanski7/boilerplate-react?style=for-the-badge&color=green&label=Forks&labelColor=555555"
-        />
-        <img
-          alt="Stars Badge"
-          src="https://img.shields.io/github/stars/lszymanski7/boilerplate-react?style=for-the-badge&color=green&label=Stars&labelColor=555555"
-        />
-      </div>
+      </a>
+      <img
+        alt="Forks Badge"
+        src="https://img.shields.io/github/forks/lszymanski7/boilerplate-react?style=for-the-badge&color=green&label=Forks&labelColor=555555"
+      />
+      <img
+        alt="Stars Badge"
+        src="https://img.shields.io/github/stars/lszymanski7/boilerplate-react?style=for-the-badge&color=green&label=Stars&labelColor=555555"
+      />
     </div>
-  </div>,
-  "debug": [Function],
-  "findAllByAltText": [Function],
-  "findAllByDisplayValue": [Function],
-  "findAllByLabelText": [Function],
-  "findAllByPlaceholderText": [Function],
-  "findAllByRole": [Function],
-  "findAllByTestId": [Function],
-  "findAllByText": [Function],
-  "findAllByTitle": [Function],
-  "findByAltText": [Function],
-  "findByDisplayValue": [Function],
-  "findByLabelText": [Function],
-  "findByPlaceholderText": [Function],
-  "findByRole": [Function],
-  "findByTestId": [Function],
-  "findByText": [Function],
-  "findByTitle": [Function],
-  "getAllByAltText": [Function],
-  "getAllByDisplayValue": [Function],
-  "getAllByLabelText": [Function],
-  "getAllByPlaceholderText": [Function],
-  "getAllByRole": [Function],
-  "getAllByTestId": [Function],
-  "getAllByText": [Function],
-  "getAllByTitle": [Function],
-  "getByAltText": [Function],
-  "getByDisplayValue": [Function],
-  "getByLabelText": [Function],
-  "getByPlaceholderText": [Function],
-  "getByRole": [Function],
-  "getByTestId": [Function],
-  "getByText": [Function],
-  "getByTitle": [Function],
-  "queryAllByAltText": [Function],
-  "queryAllByDisplayValue": [Function],
-  "queryAllByLabelText": [Function],
-  "queryAllByPlaceholderText": [Function],
-  "queryAllByRole": [Function],
-  "queryAllByTestId": [Function],
-  "queryAllByText": [Function],
-  "queryAllByTitle": [Function],
-  "queryByAltText": [Function],
-  "queryByDisplayValue": [Function],
-  "queryByLabelText": [Function],
-  "queryByPlaceholderText": [Function],
-  "queryByRole": [Function],
-  "queryByTestId": [Function],
-  "queryByText": [Function],
-  "queryByTitle": [Function],
-  "rerender": [Function],
-  "unmount": [Function],
-}
+  </div>
+</div>
 `;
