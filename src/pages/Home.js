@@ -7,11 +7,11 @@ const Home = () => {
         <div className="home-container">
             <img
                 alt="React Logo"
-                className="home-logo spin"
+                className="home-container__logo spin"
                 src={logo}
             />
-            <h1 className="home-title">React Boilerplate</h1>
-            <div className="home-badges">
+            <h1 className="home-container__title">React Boilerplate</h1>
+            <div className="home-container__badges">
                 <a href="https://github.com/lszymanski7/boilerplate-react">
                     <img
                         alt="GitHub Badge"

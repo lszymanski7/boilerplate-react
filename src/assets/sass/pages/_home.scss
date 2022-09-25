@@ -12,19 +12,19 @@
   text-align: center;
 }
 
-.home-logo {
+.home-container__logo {
   height: 218px;
   width: 218px;
 }
 
-.home-title {
+.home-container__title {
   color: map-get($colors, 'basic', 'white');
   font-size: map-get($font-sizes, 'xxl');
   font-weight: normal;
   padding: map-get($spaces, 'lg') 0 map-get($spaces, 'xl');
 }
 
-.home-badges {
+.home-container__badges {
   a {
     text-decoration: none;
   }
@@ -39,12 +39,12 @@
     padding: map-get($spaces, 'lg') map-get($spaces, 'md') map-get($spaces, 'xl');
   }
 
-  .home-logo {
+  .home-container__logo {
     width: 128px;
     height: 128px;
   }
 
-  .home-title {
+  .home-container__title {
     font-size: map-get($font-sizes, 'xl');
   }
 }
