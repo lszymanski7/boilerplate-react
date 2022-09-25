@@ -7,16 +7,16 @@ exports[`Home should be rendered correctly. 1`] = `
   >
     <img
       alt="React Logo"
-      class="home-logo spin"
+      class="home-container__logo spin"
       src="react.svg"
     />
     <h1
-      class="home-title"
+      class="home-container__title"
     >
       React Boilerplate
     </h1>
     <div
-      class="home-badges"
+      class="home-container__badges"
     >
       <a
         href="https://github.com/lszymanski7/boilerplate-react"
