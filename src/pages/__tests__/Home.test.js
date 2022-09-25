@@ -27,19 +27,6 @@ describe('Home', () => {
         expect(badges).toHaveLength(6)
     })
 
-    it('should have badges with the correct links.', () => {
-        render(<Home />)
-        const link = screen.getAllByRole('link')
-        expect(link[0]).toHaveAttribute(
-            'href', 
-            'https://github.com/lszymanski7/boilerplate-react'
-        )
-        expect(link[1]).toHaveAttribute(
-            'href',
-            'https://github.com/lszymanski7/boilerplate-react/blob/main/LICENSE.md'
-        )
-    })
-
     it('should have badges with the correct src attributes.', () => {
         render(<Home />)
         const badges = screen.getAllByAltText('Badge', { exact: false })
@@ -66,6 +53,19 @@ describe('Home', () => {
         expect(badges[5]).toHaveAttribute(
             'src',
             'https://img.shields.io/github/stars/lszymanski7/boilerplate-react?style=for-the-badge&color=green&label=Stars&labelColor=555555'
+        )
+    })
+
+    it('should have links with the correct href attributes.', () => {
+        render(<Home />)
+        const links = screen.getAllByRole('link')
+        expect(links[0]).toHaveAttribute(
+            'href', 
+            'https://github.com/lszymanski7/boilerplate-react'
+        )
+        expect(links[1]).toHaveAttribute(
+            'href',
+            'https://github.com/lszymanski7/boilerplate-react/blob/main/LICENSE.md'
         )
     })
 })
