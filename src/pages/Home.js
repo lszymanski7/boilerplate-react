@@ -4,7 +4,7 @@ import logo from '../assets/images/logos/react.svg'
 
 const Home = () => {
     return (
-        <div className="home-container">
+        <div className="flexbox-column home-container">
             <img
                 alt="React Logo"
                 className="home-container__logo spin"

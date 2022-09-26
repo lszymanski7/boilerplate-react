@@ -3,7 +3,7 @@
 exports[`App should be rendered correctly. 1`] = `
 <div>
   <div
-    class="flexbox-fullscreen"
+    class="flexbox-column fullscreen"
   >
     <header>
       <img
@@ -12,7 +12,7 @@ exports[`App should be rendered correctly. 1`] = `
       />
     </header>
     <div
-      class="home-container"
+      class="flexbox-column home-container"
     >
       <img
         alt="React Logo"
