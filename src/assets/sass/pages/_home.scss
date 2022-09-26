@@ -4,8 +4,6 @@
 
 .home-container {
   align-items: center;
-  display: flex;
-  flex-direction: column;
   flex-grow: 1;
   justify-content: center;
   padding: map-get($spaces, 'xl') map-get($spaces, 'md') map-get($spaces, 'xxxl');

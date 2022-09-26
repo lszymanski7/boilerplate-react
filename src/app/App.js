@@ -5,7 +5,7 @@ import Home from '../pages/Home'
 
 const App = () => {
     return (
-        <div className="flexbox-fullscreen">
+        <div className="flexbox-column fullscreen">
             <Header />
             <Home />
             <Footer />

@@ -3,7 +3,7 @@
 exports[`Home should be rendered correctly. 1`] = `
 <div>
   <div
-    class="home-container"
+    class="flexbox-column home-container"
   >
     <img
       alt="React Logo"
