@@ -4,6 +4,7 @@
 
 .footer {
   background-color: map-get($colors, 'app', 'gray-light');
+  border-top: 0.1rem solid lighten(map-get($colors, 'app', 'gray-light'), 10%);
   color: map-get($colors, 'basic', 'white');
   flex-shrink: 0;
   font-size: 1.4rem;
