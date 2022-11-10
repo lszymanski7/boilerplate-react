@@ -17,15 +17,15 @@ $breakpoints: (
 
 $colors: (
   'app': (
-    'gray-light': hsl(0, 0%, 33%),    // RGB: #545454
+    'gray-light': hsl(0, 0%, 33%),    // HEX: #545454
   ),
   'basic': (
-    'black': hsl(0, 0%, 0%),          // RGB: #000000
-    'white': hsl(0, 0%, 100%)         // RGB: #FFFFFF
+    'black': hsl(0, 0%, 0%),          // HEX: #000000
+    'white': hsl(0, 0%, 100%)         // HEX: #FFFFFF
   ),
   'react': (
-    'blue-dark': hsl(220, 13%, 18%),  // RGB: #282C34    
-    'blue-light': hsl(192, 95%, 68%)  // RGB: #61DAFB
+    'blue-dark': hsl(220, 13%, 18%),  // HEX: #282C34    
+    'blue-light': hsl(192, 95%, 68%)  // HEX: #61DAFB
   )
 );
 
