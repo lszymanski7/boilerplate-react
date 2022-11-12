@@ -5,27 +5,32 @@
 // Breakpoints
 
 $breakpoints: (
-  'xs': 0,        // X-Small devices (portrait phones)
-  'sm': 576px,    // Small devices (landscape phones)
-  'md': 768px,    // Medium devices (tablets)
-  'lg': 992px,    // Large devices (desktops)
-  'xl': 1200px,   // X-Large devices (large desktops)
-  'xxl': 1400px   // XX-Large devices (larger desktops)
+  'xs': 0,       // X-Small devices (portrait phones)
+  'sm': 576px,   // Small devices (landscape phones)
+  'md': 768px,   // Medium devices (tablets)
+  'lg': 992px,   // Large devices (desktops)
+  'xl': 1200px,  // X-Large devices (large desktops)
+  'xxl': 1400px  // XX-Large devices (larger desktops)
 );
 
 // Colors
 
 $colors: (
   'app': (
-    'gray-light': hsl(0, 0%, 33%),    // HEX: #545454
+    'gray-light': hsl(0, 0%, 33%),      // HEX: #545454
   ),
   'basic': (
-    'black': hsl(0, 0%, 0%),          // HEX: #000000
-    'white': hsl(0, 0%, 100%)         // HEX: #FFFFFF
+    'black': hsl(0, 0%, 0%),            // HEX: #000000
+    'white': hsl(0, 0%, 100%)           // HEX: #FFFFFF
   ),
   'react': (
-    'blue-dark': hsl(220, 13%, 18%),  // HEX: #282C34    
-    'blue-light': hsl(192, 95%, 68%)  // HEX: #61DAFB
+    'blue-dark': hsl(220, 13%, 18%),    // HEX: #282C34    
+    'blue-light': hsl(192, 95%, 68%)    // HEX: #61DAFB
+  ),
+  'shadow': (
+    'black-25': hsla(0, 0%, 0%, 0.25),  // RGB: #000000
+    'black-50': hsla(0, 0%, 0%, 0.5),   // RGB: #000000
+    'black-75': hsla(0, 0%, 0%, 0.75)   // RGB: #000000
   )
 );
 
@@ -49,11 +54,11 @@ $font-family-sans-serif: Arial, 'Helvetica Neue', Helvetica, sans-serif, 'Apple 
 $font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', 'Courier New', monospace;
 
 $font-sizes: (
-  'xs': 0.8rem,    // 8px  | 6pt
-  'sm': 1.2rem,    // 12px | 9pt
-  'md': 1.6rem,    // 16px | 12pt
-  'lg': 2.4rem,    // 24px | 18pt
-  'xl': 3.2rem,    // 32px | 24pt
-  'xxl': 4.8rem,   // 48px | 36pt
-  'xxxl': 6.4rem   // 64px | 48pt
+  'xs': 0.8rem,   // 8px  | 6pt
+  'sm': 1.2rem,   // 12px | 9pt
+  'md': 1.6rem,   // 16px | 12pt
+  'lg': 2.4rem,   // 24px | 18pt
+  'xl': 3.2rem,   // 32px | 24pt
+  'xxl': 4.8rem,  // 48px | 36pt
+  'xxxl': 6.4rem  // 64px | 48pt
 );

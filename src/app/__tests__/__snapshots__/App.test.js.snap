@@ -5,7 +5,9 @@ exports[`App should be rendered correctly. 1`] = `
   <div
     class="flexbox-column fullscreen"
   >
-    <header>
+    <header
+      class="header"
+    >
       <img
         alt="React Waves"
         src="waves.svg"

@@ -4,10 +4,15 @@
 
 .footer {
   background-color: map-get($colors, 'app', 'gray-light');
-  border-top: 0.1rem solid lighten(map-get($colors, 'app', 'gray-light'), 10%);
+  border-top: 0.1rem solid darken(map-get($colors, 'app', 'gray-light'), 20%);
   color: map-get($colors, 'basic', 'white');
   flex-shrink: 0;
   font-size: 1.4rem;
   padding: map-get($spaces, 'xs') 0;
   text-align: center;
+  @include drop-shadow(0px, 0px, 10px, map-get($colors, 'shadow', 'black-50'));
+
+  p {
+    @include drop-shadow(1px, 1px, 1px, map-get($colors, 'shadow', 'black-50'));
+  }
 }

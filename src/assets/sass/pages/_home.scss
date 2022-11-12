@@ -13,6 +13,7 @@
 .home-container__logo {
   height: 218px;
   width: 218px;
+  @include drop-shadow(5px, 5px, 5px, map-get($colors, 'shadow', 'black-50'));
 }
 
 .home-container__title {
@@ -20,6 +21,7 @@
   font-size: map-get($font-sizes, 'xxl');
   font-weight: normal;
   padding: map-get($spaces, 'lg') 0 map-get($spaces, 'xl');
+  @include drop-shadow(4px, 4px, 4px, map-get($colors, 'shadow', 'black-50'));
 }
 
 .home-container__badges {
@@ -29,6 +31,7 @@
 
   img {
     padding: 0.2rem map-get($spaces, 'xxs');
+    @include drop-shadow(3px, 3px, 3px, map-get($colors, 'shadow', 'black-50'));
   }
 }
 
@@ -40,9 +43,17 @@
   .home-container__logo {
     width: 128px;
     height: 128px;
+    @include drop-shadow(4px, 4px, 4px, map-get($colors, 'shadow', 'black-50'));
   }
 
   .home-container__title {
     font-size: map-get($font-sizes, 'xl');
+    @include drop-shadow(3px, 3px, 3px, map-get($colors, 'shadow', 'black-50'));
+  }
+
+  .home-container__badges {
+    img {
+      @include drop-shadow(2px, 2px, 2px, map-get($colors, 'shadow', 'black-50'));
+    }
   }
 }
