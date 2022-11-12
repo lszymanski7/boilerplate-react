@@ -30,6 +30,7 @@
   }
 
   img {
+    display: block;
     padding: 0.2rem map-get($spaces, 'xxs');
     @include drop-shadow(3px, 3px, 3px, map-get($colors, 'shadow', 'black-50'));
   }
