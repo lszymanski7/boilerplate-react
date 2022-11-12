@@ -16,7 +16,7 @@ exports[`Home should be rendered correctly. 1`] = `
       React Boilerplate
     </h1>
     <div
-      class="home-container__badges"
+      class="flexbox-row home-container__badges"
     >
       <a
         href="https://github.com/lszymanski7/boilerplate-react"

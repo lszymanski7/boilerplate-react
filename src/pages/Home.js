@@ -11,7 +11,7 @@ const Home = () => {
                 src={logo}
             />
             <h1 className="home-container__title">React Boilerplate</h1>
-            <div className="home-container__badges">
+            <div className="flexbox-row home-container__badges">
                 <a href="https://github.com/lszymanski7/boilerplate-react">
                     <img
                         alt="GitHub Badge"
