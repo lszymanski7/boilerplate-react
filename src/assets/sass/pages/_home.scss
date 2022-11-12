@@ -35,7 +35,7 @@
   }
 }
 
-@media screen and (max-width: map-get($breakpoints, 'md')) {
+@media screen and (max-width: map-get($breakpoints, 'sm')) {
   .home-container {
     padding: map-get($spaces, 'lg') map-get($spaces, 'md') map-get($spaces, 'xl');
   }
