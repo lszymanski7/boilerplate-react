@@ -11,6 +11,16 @@
   border-radius: $radius;
 }
 
+// Drop shadow
+
+@mixin drop-shadow($offset-x, $offset-y, $blur-radius, $color) {
+  -webkit-filter: drop-shadow($offset-x $offset-y $blur-radius $color);
+  -moz-filter: drop-shadow($offset-x $offset-y $blur-radius $color);
+  -ms-filter: drop-shadow($offset-x $offset-y $blur-radius $color);
+  -o-filter: drop-shadow($offset-x $offset-y $blur-radius $color);
+  filter: drop-shadow($offset-x $offset-y $blur-radius $color);
+}
+
 // User select
 
 @mixin user-select($value) {

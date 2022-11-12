@@ -3,7 +3,7 @@ import waves from '../assets/images/shapes/waves.svg'
 
 const Header = () => {
     return (
-        <header>
+        <header className="header">
             <img
                 alt="React Waves"
                 src={waves}
