@@ -5,7 +5,10 @@
 // Blink animation
 
 .blink {
+  animation-delay: 0ms;
+  animation-direction: normal;
   animation-duration: 750ms;
+  animation-fill-mode: none;
   animation-iteration-count: 3;
   animation-name: blink;
   animation-timing-function: linear;
@@ -26,7 +29,10 @@
 // Bounce animation
 
 .bounce {
+  animation-delay: 0ms;
+  animation-direction: normal;
   animation-duration: 2500ms;
+  animation-fill-mode: none;
   animation-iteration-count: infinite;
   animation-name: bounce;
   animation-timing-function: linear;
@@ -44,10 +50,55 @@
   }
 }
 
+// Fade animation
+
+.fade {
+  animation-delay: 0ms;
+  animation-direction: normal;
+  animation-duration: 250ms;
+  animation-fill-mode: forwards;
+  animation-iteration-count: 1;
+  animation-name: fade;
+  animation-timing-function: linear;
+}
+
+@keyframes fade {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0.25;
+  }
+}
+
+// Scale animation
+
+.scale {
+  animation-delay: 0ms;
+  animation-direction: normal;
+  animation-duration: 250ms;
+  animation-fill-mode: none;
+  animation-iteration-count: 1;
+  animation-name: scale;
+  animation-timing-function: linear;
+}
+
+@keyframes scale {
+  0% {
+    transform: scale(0.5);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
 // Spin animation
 
 .spin {
+  animation-delay: 0ms;
+  animation-direction: normal;
   animation-duration: 15000ms;
+  animation-fill-mode: none;
   animation-iteration-count: infinite;
   animation-name: spin;
   animation-timing-function: linear;
