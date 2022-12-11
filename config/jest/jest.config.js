@@ -2,6 +2,7 @@ module.exports = {
     collectCoverageFrom: [
         '<rootDir>/src/app/**/*.[jt]s?(x)',
         '<rootDir>/src/components/**/*.[jt]s?(x)',
+        '<rootDir>/src/context/**/*.[jt]s?(x)',
         '<rootDir>/src/features/**/*.[jt]s?(x)',
         '<rootDir>/src/hooks/**/*.[jt]s?(x)',
         '<rootDir>/src/layout/**/*.[jt]s?(x)',
