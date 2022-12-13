@@ -3,5 +3,5 @@
 // ================================================================================================
 
 .header {
-  @include drop-shadow(5px, 5px, 5px, map-get($colors, 'shadow', 'black-50'));
+  @include drop-shadow(0.5rem, 0.5rem, 0.5rem, map-get($colors, 'shadow', 'black-50'));
 }

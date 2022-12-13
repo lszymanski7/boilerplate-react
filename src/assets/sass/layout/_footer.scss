@@ -10,9 +10,9 @@
   font-size: 1.4rem;
   padding: map-get($spaces, 'xs') 0;
   text-align: center;
-  @include drop-shadow(0px, 0px, 10px, map-get($colors, 'shadow', 'black-50'));
+  @include drop-shadow(0, 0, 1rem, map-get($colors, 'shadow', 'black-50'));
 
   p {
-    @include drop-shadow(1px, 1px, 1px, map-get($colors, 'shadow', 'black-50'));
+    @include drop-shadow(0.1rem, 0.1rem, 0.1rem, map-get($colors, 'shadow', 'black-50'));
   }
 }
