@@ -1,5 +1,5 @@
 import React from 'react'
-import { badge } from '../data/constants'
+import { badges } from '../data/constants'
 import logo from '../assets/images/logos/react.svg'
 
 const Home = () => {
@@ -15,30 +15,30 @@ const Home = () => {
                 <a href="https://github.com/lszymanski7/boilerplate-react">
                     <img
                         alt="GitHub Badge"
-                        src={badge.github}
+                        src={badges.github}
                     />
                 </a>
                 <img
                     alt="Version Badge"
-                    src={badge.version}
+                    src={badges.version}
                 />
                 <img
                     alt="Size Badge"
-                    src={badge.size}
+                    src={badges.size}
                 />
                 <a href="https://github.com/lszymanski7/boilerplate-react/blob/main/LICENSE.md">
                     <img
                         alt="License Badge"
-                        src={badge.license}
+                        src={badges.license}
                     />
                 </a>
                 <img
                     alt="Forks Badge"
-                    src={badge.forks}
+                    src={badges.forks}
                 />
                 <img
                     alt="Stars Badge"
-                    src={badge.stars}
+                    src={badges.stars}
                 />
             </div>
         </div>
