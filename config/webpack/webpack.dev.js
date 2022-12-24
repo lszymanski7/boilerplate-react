@@ -19,7 +19,7 @@ module.exports = merge(common, {
             // Fonts
             {
                 test: /\.(woff(2)?|eot|ttf|otf)$/,
-                type: 'asset/inline',
+                type: 'asset/resource',
                 generator: {
                     filename: 'static/fonts/[name][ext]'
                 }
