@@ -1,6 +1,5 @@
 import React from 'react'
-import { badges } from '../data/constants'
-import logo from '../assets/images/logos/react.svg'
+import { badges, logos } from '../data/constants'
 
 const Home = () => {
     return (
@@ -8,7 +7,7 @@ const Home = () => {
             <img
                 alt="React Logo"
                 className="home-container__logo spin"
-                src={logo}
+                src={logos.react.svg}
             />
             <h1 className="home-container__title">React Boilerplate</h1>
             <div className="flexbox-row home-container__badges">

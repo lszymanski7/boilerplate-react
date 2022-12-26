@@ -1,12 +1,12 @@
 import React from 'react'
-import waves from '../assets/images/shapes/waves.svg'
+import { shapes } from '../data/constants'
 
 const Header = () => {
     return (
         <header className="header">
             <img
                 alt="React Waves"
-                src={waves}
+                src={shapes.waves}
             />
         </header>
     )
