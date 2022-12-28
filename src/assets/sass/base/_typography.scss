@@ -5,7 +5,7 @@
 body {
   color: map-get($colors, 'basic', 'black');
   font-family: $font-family-sans-serif;
-  font-size: map-get($font-sizes, 'md');
-  -moz-osx-font-smoothing: grayscale;
+  font-size: 1.6rem;
   -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
