@@ -3,12 +3,12 @@
 // ================================================================================================
 
 .footer {
-  background-color: map-get($colors, 'app', 'gray-light');
-  border-top: 0.1rem solid darken(map-get($colors, 'app', 'gray-light'), 20%);
+  background-color: map-get($colors, 'app', 'gray');
+  border-top: 0.1rem solid darken(map-get($colors, 'app', 'gray'), 20%);
   color: map-get($colors, 'basic', 'white');
   flex-shrink: 0;
   font-size: 1.4rem;
-  padding: map-get($spaces, 'xs') 0;
+  padding: 0.8rem 0;
   text-align: center;
   @include drop-shadow(0, 0, 1rem, map-get($colors, 'shadow', 'black-50'));
 

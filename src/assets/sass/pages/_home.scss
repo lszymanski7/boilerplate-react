@@ -6,7 +6,7 @@
   align-items: center;
   flex-grow: 1;
   justify-content: center;
-  padding: map-get($spaces, 'xl') map-get($spaces, 'md') map-get($spaces, 'xxxl');
+  padding: 4.8rem 1.6rem 12.8rem;
   text-align: center;
 }
 
@@ -18,9 +18,9 @@
 
 .home-container__title {
   color: map-get($colors, 'basic', 'white');
-  font-size: map-get($font-sizes, 'xxl');
-  font-weight: normal;
-  padding: map-get($spaces, 'lg') 0 map-get($spaces, 'xl');
+  font-size: 4.8rem;
+  font-weight: 400;
+  padding: 3.2rem 0 4.8rem;
   @include drop-shadow(0.4rem, 0.4rem, 0.4rem, map-get($colors, 'shadow', 'black-50'));
 }
 
@@ -34,14 +34,14 @@
 
   img {
     display: block;
-    padding: map-get($spaces, 'xxs');
+    padding: 0.4rem;
     @include drop-shadow(0.3rem, 0.3rem, 0.3rem, map-get($colors, 'shadow', 'black-50'));
   }
 }
 
 @media screen and (max-width: map-get($breakpoints, 'sm')) {
   .home-container {
-    padding: map-get($spaces, 'lg') map-get($spaces, 'md') map-get($spaces, 'xl');
+    padding: 3.2rem 1.6rem 4.8rem;
   }
 
   .home-container__logo {
@@ -51,7 +51,7 @@
   }
 
   .home-container__title {
-    font-size: map-get($font-sizes, 'xl');
+    font-size: 3.2rem;
     @include drop-shadow(0.3rem, 0.3rem, 0.3rem, map-get($colors, 'shadow', 'black-50'));
   }
 
