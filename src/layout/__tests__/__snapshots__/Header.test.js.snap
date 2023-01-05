@@ -6,7 +6,7 @@ exports[`Header should be rendered correctly. 1`] = `
     class="header"
   >
     <img
-      alt="React Waves"
+      alt="Waves"
       src="waves.svg"
     />
   </header>

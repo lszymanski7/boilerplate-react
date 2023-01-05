@@ -2,15 +2,18 @@ import React from 'react'
 import { badges, logos } from '../data/constants'
 
 const Home = () => {
+    // Application name
+    const name = 'React Boilerplate'
+
     return (
-        <div className="flexbox-column home-container">
+        <div className="flexbox-column home">
             <img
-                alt="React Logo"
-                className="home-container__logo spin"
+                alt="Application Logo"
+                className="home__app-logo spin"
                 src={logos.react.svg}
             />
-            <h1 className="home-container__title">React Boilerplate</h1>
-            <div className="flexbox-row home-container__badges">
+            <h1 className="home__app-name">{name}</h1>
+            <div className="flexbox-row home__badges">
                 <a href="https://github.com/lszymanski7/boilerplate-react">
                     <img
                         alt="GitHub Badge"

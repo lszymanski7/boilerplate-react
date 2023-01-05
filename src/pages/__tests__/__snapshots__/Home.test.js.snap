@@ -3,20 +3,20 @@
 exports[`Home should be rendered correctly. 1`] = `
 <div>
   <div
-    class="flexbox-column home-container"
+    class="flexbox-column home"
   >
     <img
-      alt="React Logo"
-      class="home-container__logo spin"
+      alt="Application Logo"
+      class="home__app-logo spin"
       src="react.svg"
     />
     <h1
-      class="home-container__title"
+      class="home__app-name"
     >
       React Boilerplate
     </h1>
     <div
-      class="flexbox-row home-container__badges"
+      class="flexbox-row home__badges"
     >
       <a
         href="https://github.com/lszymanski7/boilerplate-react"
