@@ -8,17 +8,17 @@ describe('Home', () => {
         expect(container).toMatchSnapshot()
     })
 
-    it('should have the correct logo.', () => {
+    it('should have the correct application logo.', () => {
         render(<Home />)
-        const logo = screen.getByAltText('React Logo')
+        const logo = screen.getByAltText('Application Logo')
         expect(logo).toHaveAttribute('src', 'react.svg')
     })
 
-    it('should have the correct title.', () => {
+    it('should have the correct application name.', () => {
         render(<Home />)
-        const title = 'React Boilerplate'
+        const name = 'React Boilerplate'
         const h1 = screen.getByRole('heading', { level: 1 })
-        expect(h1).toHaveTextContent(title)
+        expect(h1).toHaveTextContent(name)
     })
 
     it('should have six badges.', () => {

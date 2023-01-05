@@ -4,17 +4,6 @@
 
 // Breakpoints
 
-// +----------+------------+-----------------+
-// | Size     | Dimensions | Device          |
-// +----------+------------+-----------------+
-// | X-Small  | < 576px    | portrait phone  |
-// | Small    | ≥ 576px    | landscape phone |
-// | Medium   | ≥ 768px    | tablet          |
-// | Large    | ≥ 992px    | desktop         |
-// | X-Large  | ≥ 1200px   | large desktop   |
-// | XX-Large | ≥ 1400px   | larger desktop  |
-// +----------+------------+-----------------+
-
 $breakpoints: (
   'sm': 576px,
   'md': 768px,
@@ -27,6 +16,9 @@ $breakpoints: (
 
 $colors: (
   'app': (
+    'blue-100': hsl(193, 95%, 68%),     // HEX: #61DAFB
+    'blue-200': hsl(193, 95%, 57%),     // HEX: #27CEFA
+    'blue-300': hsl(193, 95%, 34%),     // HEX: #0485A9
     'gray': hsl(0, 0%, 33%),            // HEX: #545454
   ),
   'basic': (
@@ -34,8 +26,8 @@ $colors: (
     'white': hsl(0, 0%, 100%)           // HEX: #FFFFFF
   ),
   'react': (
-    'blue-dark': hsl(220, 13%, 18%),    // HEX: #282C34    
-    'blue-light': hsl(192, 95%, 68%)    // HEX: #61DAFB
+    'blue': hsl(193, 95%, 68%),         // HEX: #61DAFB
+    'gray': hsl(220, 13%, 18%)          // HEX: #282C34    
   ),
   'shadow': (
     'black-25': hsla(0, 0%, 0%, 0.25),  // HEX: #000000

@@ -5,7 +5,7 @@ const Header = () => {
     return (
         <header className="header">
             <img
-                alt="React Waves"
+                alt="Waves"
                 src={shapes.waves}
             />
         </header>

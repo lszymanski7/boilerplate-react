@@ -10,9 +10,33 @@
   font-size: 1.4rem;
   padding: 0.8rem 0;
   text-align: center;
-  @include drop-shadow(0, 0, 1rem, map-get($colors, 'shadow', 'black-50'));
+  @include drop-shadow(0, 0, 0.4rem, map-get($colors, 'shadow', 'black-50'));
 
   p {
     @include drop-shadow(0.1rem, 0.1rem, 0.1rem, map-get($colors, 'shadow', 'black-50'));
+  }
+}
+
+// Landscape phones
+
+@media (min-width: map-get($breakpoints, 'sm')) {
+  .footer {
+    @include drop-shadow(0, 0, 0.6rem, map-get($colors, 'shadow', 'black-50'));
+  }
+}
+
+// Tablets
+
+@media (min-width: map-get($breakpoints, 'md')) {
+  .footer {
+    @include drop-shadow(0, 0, 0.8rem, map-get($colors, 'shadow', 'black-50'));
+  }
+}
+
+// Desktops
+
+@media (min-width: map-get($breakpoints, 'lg')) {
+  .footer {
+    @include drop-shadow(0, 0, 1rem, map-get($colors, 'shadow', 'black-50'));
   }
 }

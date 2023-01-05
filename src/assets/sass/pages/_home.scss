@@ -2,31 +2,31 @@
 // Home page styles
 // ================================================================================================
 
-.home-container {
+.home {
   align-items: center;
   flex-grow: 1;
   justify-content: center;
-  padding: 4.8rem 1.6rem 12.8rem;
+  padding: 6.4rem 1.6rem 14rem;
   text-align: center;
 }
 
-.home-container__logo {
-  height: 218px;
-  width: 218px;
-  @include drop-shadow(0.5rem, 0.5rem, 0.5rem, map-get($colors, 'shadow', 'black-50'));
-}
-
-.home-container__title {
-  color: map-get($colors, 'basic', 'white');
-  font-size: 4.8rem;
-  font-weight: 400;
-  padding: 3.2rem 0 4.8rem;
+.home__app-logo {
+  height: 128px;
+  width: 128px;
   @include drop-shadow(0.4rem, 0.4rem, 0.4rem, map-get($colors, 'shadow', 'black-50'));
 }
 
-.home-container__badges {
-  justify-content: center;
+.home__app-name {
+  color: map-get($colors, 'basic', 'white');
+  font-size: 3.2rem;
+  font-weight: 400;
+  padding: 3.2rem 0 4.2rem;
+  @include drop-shadow(0.3rem, 0.3rem, 0.3rem, map-get($colors, 'shadow', 'black-50'));
+}
+
+.home__badges {
   flex-wrap: wrap;
+  justify-content: center;
 
   a {
     text-decoration: none;
@@ -39,25 +39,47 @@
   }
 }
 
-@media screen and (max-width: map-get($breakpoints, 'sm')) {
-  .home-container {
-    padding: 3.2rem 1.6rem 4.8rem;
+// Landscape phones
+
+@media (min-width: map-get($breakpoints, 'sm')) {
+  .home__app-logo {
+    height: 156px;
+    width: 156px;
+    @include drop-shadow(0.6rem, 0.6rem, 0.6rem, map-get($colors, 'shadow', 'black-50'));
   }
 
-  .home-container__logo {
-    width: 128px;
-    height: 128px;
+  .home__app-name {
+    font-size: 3.8rem;
     @include drop-shadow(0.4rem, 0.4rem, 0.4rem, map-get($colors, 'shadow', 'black-50'));
   }
+}
 
-  .home-container__title {
-    font-size: 3.2rem;
-    @include drop-shadow(0.3rem, 0.3rem, 0.3rem, map-get($colors, 'shadow', 'black-50'));
+// Tablets
+
+@media (min-width: map-get($breakpoints, 'md')) {
+  .home__app-logo {
+    height: 196px;
+    width: 196px;
+    @include drop-shadow(0.8rem, 0.8rem, 0.8rem, map-get($colors, 'shadow', 'black-50'));
   }
 
-  .home-container__badges {
-    img {
-      @include drop-shadow(0.2rem, 0.2rem, 0.2rem, map-get($colors, 'shadow', 'black-50'));
-    }
+  .home__app-name {
+    font-size: 4.4rem;
+    @include drop-shadow(0.5rem, 0.5rem, 0.5rem, map-get($colors, 'shadow', 'black-50'));
+  }
+}
+
+// Desktops
+
+@media (min-width: map-get($breakpoints, 'lg')) {
+  .home__app-logo {
+    height: 218px;
+    width: 218px;
+    @include drop-shadow(1rem, 1rem, 1rem, map-get($colors, 'shadow', 'black-50'));
+  }
+
+  .home__app-name {
+    font-size: 5rem;
+    @include drop-shadow(0.6rem, 0.6rem, 0.6rem, map-get($colors, 'shadow', 'black-50'));
   }
 }
