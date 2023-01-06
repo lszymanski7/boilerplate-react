@@ -1,6 +1,6 @@
 /* istanbul ignore file */
 
-// Function that displays details about the repository in the console (GitHub REST API)
+// Function ➞ displays repository details in the console (GitHub REST API)
 const github = (owner, repo) => {
     fetch(`https://api.github.com/repos/${owner}/${repo}`)
         .then((response) => response.json())
