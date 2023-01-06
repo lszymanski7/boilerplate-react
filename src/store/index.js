@@ -1,7 +1,7 @@
 import { configureStore } from '@reduxjs/toolkit'
 import logger from 'redux-logger'
 
-// Function that configures the redux store
+// Function ➞ configures the redux store
 const store = configureStore({
     reducer: {
         dummyReducer: () => 'Replace Me!'
