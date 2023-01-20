@@ -2,6 +2,14 @@
 // Mixins
 // ================================================================================================
 
+// Appearance
+
+@mixin appearance($value) {
+  -webkit-appearance: $value;
+  -moz-appearance: $value;
+  appearance: $value;
+}
+
 // Border radius
 
 @mixin border-radius($radius) {
