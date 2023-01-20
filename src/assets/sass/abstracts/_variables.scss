@@ -15,24 +15,24 @@ $breakpoints: (
 // Colors
 
 $colors: (
-  'app': (
-    'blue-100': hsl(193, 95%, 68%),     // HEX: #61DAFB
-    'blue-200': hsl(193, 95%, 57%),     // HEX: #27CEFA
-    'blue-300': hsl(193, 95%, 34%),     // HEX: #0485A9
-    'gray': hsl(0, 0%, 33%),            // HEX: #545454
+  'application': (
+    'blue-100': hsl(193, 95%, 68%),
+    'blue-200': hsl(193, 95%, 57%),
+    'blue-300': hsl(193, 95%, 34%),
+    'gray': hsl(0, 0%, 33%),
   ),
   'basic': (
-    'black': hsl(0, 0%, 0%),            // HEX: #000000
-    'white': hsl(0, 0%, 100%)           // HEX: #FFFFFF
+    'black': hsl(0, 0%, 0%),
+    'white': hsl(0, 0%, 100%)
   ),
   'react': (
-    'blue': hsl(193, 95%, 68%),         // HEX: #61DAFB
-    'gray': hsl(220, 13%, 18%)          // HEX: #282C34    
+    'blue': hsl(193, 95%, 68%),
+    'gray': hsl(220, 13%, 18%)
   ),
   'shadow': (
-    'black-25': hsla(0, 0%, 0%, 0.25),  // HEX: #000000
-    'black-50': hsla(0, 0%, 0%, 0.5),   // HEX: #000000
-    'black-75': hsla(0, 0%, 0%, 0.75)   // HEX: #000000
+    'black-25': hsla(0, 0%, 0%, 0.25),
+    'black-50': hsla(0, 0%, 0%, 0.5),
+    'black-75': hsla(0, 0%, 0%, 0.75)
   )
 );
 
