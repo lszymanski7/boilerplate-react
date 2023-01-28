@@ -6,7 +6,6 @@
   background-color: map-get($colors, 'application', 'gray');
   border-top: 0.1rem solid darken(map-get($colors, 'application', 'gray'), 20%);
   color: map-get($colors, 'basic', 'white');
-  flex-shrink: 0;
   font-size: 1.4rem;
   padding: 0.8rem 0;
   text-align: center;

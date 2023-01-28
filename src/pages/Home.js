@@ -6,14 +6,14 @@ const Home = () => {
     const name = 'React Boilerplate'
 
     return (
-        <div className="flexbox-column home">
+        <div className="home">
             <img
                 alt="Application Logo"
                 className="home__app-logo spin"
                 src={LOGOS.react.svg}
             />
             <h1 className="home__app-name">{name}</h1>
-            <div className="flexbox-row home__badges">
+            <div className="home__badges">
                 <a href="https://github.com/lszymanski7/boilerplate-react">
                     <img
                         alt="GitHub Badge"

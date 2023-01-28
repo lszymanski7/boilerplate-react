@@ -3,7 +3,7 @@
 exports[`App should be rendered correctly. 1`] = `
 <div>
   <div
-    class="flexbox-column fullscreen"
+    class="fullscreen"
   >
     <header
       class="header"
@@ -14,7 +14,7 @@ exports[`App should be rendered correctly. 1`] = `
       />
     </header>
     <div
-      class="flexbox-column home"
+      class="home"
     >
       <img
         alt="Application Logo"
@@ -27,7 +27,7 @@ exports[`App should be rendered correctly. 1`] = `
         React Boilerplate
       </h1>
       <div
-        class="flexbox-row home__badges"
+        class="home__badges"
       >
         <a
           href="https://github.com/lszymanski7/boilerplate-react"

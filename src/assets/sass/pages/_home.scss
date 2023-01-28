@@ -4,14 +4,16 @@
 
 .home {
   align-items: center;
+  display: flex;
+  flex-direction: column;
   flex-grow: 1;
   justify-content: center;
   padding: 6.4rem 1.6rem 14rem;
-  text-align: center;
 }
 
 .home__app-logo {
   height: 128px;
+  pointer-events: none;
   width: 128px;
   @include drop-shadow(0.4rem, 0.4rem, 0.4rem, map-get($colors, 'shadow', 'black-50'));
 }
@@ -25,6 +27,8 @@
 }
 
 .home__badges {
+  display: flex;
+  flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
 
@@ -35,6 +39,7 @@
   img {
     display: block;
     padding: 0.4rem;
+    pointer-events: none;
     @include drop-shadow(0.3rem, 0.3rem, 0.3rem, map-get($colors, 'shadow', 'black-50'));
   }
 }

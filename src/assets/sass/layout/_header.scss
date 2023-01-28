@@ -3,6 +3,7 @@
 // ================================================================================================
 
 .header {
+  pointer-events: none;
   @include drop-shadow(0.4rem, 0.4rem, 0.4rem, map-get($colors, 'shadow', 'black-50'));
 }
 
