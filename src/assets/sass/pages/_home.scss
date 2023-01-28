@@ -31,7 +31,6 @@
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
-  pointer-events: none;
 
   a {
     text-decoration: none;
@@ -40,6 +39,7 @@
   img {
     display: block;
     padding: 0.4rem;
+    pointer-events: none;
     @include drop-shadow(0.3rem, 0.3rem, 0.3rem, map-get($colors, 'shadow', 'black-50'));
   }
 }
