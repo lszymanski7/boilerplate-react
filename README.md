@@ -75,7 +75,7 @@ Boilerplate for creating projects in the JavaScript programming language based o
 [![Node.js](https://img.shields.io/badge/Node.js%20|%20v18.9.0-555555?style=flat&logo=node.js&logoColor=339933)](https://nodejs.org/en)
 [![Npm](https://img.shields.io/badge/Npm%20|%20v8.19.1-555555?style=flat&logo=npm&logoColor=CB3837)](https://npmjs.com)
 [![Express](https://img.shields.io/badge/Express%20%7C%20v4.18.2-555555?style=flat&logo=express&logoColor=FFFFFF)](https://expressjs.com)
-[![ESLint](https://img.shields.io/badge/ESLint%20%7C%20v8.32.0-555555?style=flat&logo=eslint&logoColor=4B32C3)](https://eslint.org)
+[![ESLint](https://img.shields.io/badge/ESLint%20%7C%20v8.33.0-555555?style=flat&logo=eslint&logoColor=4B32C3)](https://eslint.org)
 [![Prettier](https://img.shields.io/badge/Prettier%20%7C%20v2.8.3-555555?style=flat&logo=prettier&logoColor=F7B93E)](https://prettier.io)
 
 All technologies and tools were used in the latest version at the time of creating this project.
