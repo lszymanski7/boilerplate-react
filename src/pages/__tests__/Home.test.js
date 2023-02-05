@@ -27,7 +27,7 @@ describe('Home', () => {
         expect(badges).toHaveLength(6)
     })
 
-    it('should have badges with the correct src attributes.', () => {
+    it('should have badges with the correct src attribute.', () => {
         render(<Home />)
         const badges = screen.getAllByAltText('Badge', { exact: false })
         expect(badges[0]).toHaveAttribute(
@@ -56,7 +56,7 @@ describe('Home', () => {
         )
     })
 
-    it('should have links with the correct href attributes.', () => {
+    it('should have links with the correct href attribute.', () => {
         render(<Home />)
         const links = screen.getAllByRole('link')
         expect(links[0]).toHaveAttribute(
