@@ -10,7 +10,8 @@ describe('Home', () => {
 
     it('should have the correct application logo.', () => {
         render(<Home />)
-        const logo = screen.getByAltText('Application Logo')
+        const logo = screen.getAllByRole('img')[0]
+        expect(logo).toHaveAttribute('alt', 'Application Logo')
         expect(logo).toHaveAttribute('src', 'react.svg')
     })
 
