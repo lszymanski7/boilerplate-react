@@ -8,10 +8,10 @@ describe('Header', () => {
         expect(container).toMatchSnapshot()
     })
 
-    it('should have waves as a background.', () => {
+    it('should have the correct background image.', () => {
         render(<Header />)
-        const waves = screen.getByRole('img')
-        expect(waves).toHaveAttribute('alt', 'Waves')
-        expect(waves).toHaveAttribute('src', 'waves.svg')
+        const img = screen.getByRole('img')
+        expect(img).toHaveAttribute('alt', 'Waves')
+        expect(img).toHaveAttribute('src', 'waves.svg')
     })
 })
