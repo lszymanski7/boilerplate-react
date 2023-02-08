@@ -1,4 +1,3 @@
-// GitHub badges
 const BADGES = {
     github: 'https://img.shields.io/badge/GitHub-555555?style=for-the-badge&logo=github',
     version: 'https://img.shields.io/badge/1.0.0-blue?style=for-the-badge&label=Version&labelColor=555555',
@@ -8,7 +7,6 @@ const BADGES = {
     stars: 'https://img.shields.io/github/stars/lszymanski7/boilerplate-react?style=for-the-badge&color=green&label=Stars&labelColor=555555'
 }
 
-// Logos images
 const LOGOS = {
     github: require('../assets/images/logos/github.svg'),
     react: {
@@ -19,7 +17,6 @@ const LOGOS = {
     }
 }
 
-// Shapes images
 const SHAPES = {
     waves: require('../assets/images/shapes/waves.svg')
 }
