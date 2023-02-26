@@ -9,6 +9,7 @@
   flex-grow: 1;
   justify-content: center;
   padding: 6.4rem 1.6rem 14rem;
+  text-align: center;
 }
 
 .home__app-logo {
@@ -19,7 +20,6 @@
 }
 
 .home__app-name {
-  color: map-get($colors, 'basic', 'white');
   font-size: 3.2rem;
   font-weight: 400;
   padding: 3.2rem 0 4.2rem;
