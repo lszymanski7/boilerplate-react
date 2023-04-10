@@ -21,7 +21,7 @@
 
 <!-- REACT BOILERPLATE -->
 # React Boilerplate
-Boilerplate for creating projects in the JavaScript programming language based on React and Redux libraries. It includes the basic configuration of tools such as Webpack, Babel, Jest, Express, ESLint and Prettier. Designed to speed up the process of building new projects. Don't waste your time configuring the tools commonly used in web development.
+A boilerplate designed to speed up the process of building new projects in the JavaScript programming language based on React and Redux libraries. It includes the basic configuration of tools such as Webpack, Babel, Jest, ESLint and Prettier. Don't waste your time configuring tools commonly used in web development. Instead, focus on creating amazing things!
 
 🚀 **Live demo:** <a href="https://lszymanski7-boilerplate-react.netlify.app">https://lszymanski7-boilerplate-react.netlify.app</a>
 
@@ -53,30 +53,30 @@ Boilerplate for creating projects in the JavaScript programming language based o
   - `mini-css-extract-plugin`,
   - `css-minimizer-webpack-plugin`,
   - `terser-webpack-plugin`.
-- Converting ECMAScript 2015+ code into a backwards compatible version of JavaScript. 
-- Possibility to conduct unit tests and generate code coverage.
-- A simple Express server that allows you to deploy your application in Heroku.
-- Checking JavaScript code to find existing problems.
-- Formatting all supported files.
+- Converting ECMAScript 2015+ code to a backwards compatible version of JavaScript.
+- Jest configuration for performing unit tests and generating code coverage.
+- A simple server built with Node.js and Express that allows you to deploy your application to Heroku.
+- Static analysis of JavaScript code to find existing problems.
+- Code formatting in all supported files.
 
 <!-- TECHNOLOGIES -->
 ## Technologies
 ![JavaScript](https://img.shields.io/badge/JavaScript-555555?style=flat&logo=javascript&logoColor=F7DF1E)
 ![HTML](https://img.shields.io/badge/HTML-555555?style=flat&logo=html5&logoColor=E34F26)
 ![CSS](https://img.shields.io/badge/CSS-555555?style=flat&logo=css3&logoColor=1572B6)
-[![Sass](https://img.shields.io/badge/Sass%20|%20v1.57.1-555555?style=flat&logo=Sass&logoColor=CC6699)](https://sass-lang.com)
+[![Sass](https://img.shields.io/badge/Sass%20|%20v1.61.0-555555?style=flat&logo=Sass&logoColor=CC6699)](https://sass-lang.com)
 [![React](https://img.shields.io/badge/React%20|%20v18.1.0-555555?style=flat&logo=react&logoColor=61DAFB)](https://reactjs.org)
 [![Redux](https://img.shields.io/badge/Redux%20|%20v4.2.1-555555?style=flat&logo=redux&logoColor=916EC9)](https://redux.js.org)
-[![React Router](https://img.shields.io/badge/React%20Router%20|%20v6.8.0-555555?logo=react-router&logoColor=CA4245)](https://reactrouter.com)
-[![Webpack](https://img.shields.io/badge/Webpack%20|%20v5.75.0-555555?style=flat&logo=webpack&logoColor=8DD6F9)](https://webpack.js.org)
-[![Babel](https://img.shields.io/badge/Babel%20|%20v7.20.12-555555?style=flat&logo=babel&logoColor=F9DC3E)](https://babeljs.io)
-[![Jest](https://img.shields.io/badge/Jest%20|%20v29.4.1-555555?style=flat&logo=jest&logoColor=C21325)](https://jestjs.io)
-[![Testing Library](https://img.shields.io/badge/Testing%20Library%20|%20v8.20.0-555555?style=flat&logo=testinglibrary&logoColor=E33332)](https://testing-library.com)
+[![React Router](https://img.shields.io/badge/React%20Router%20|%20v6.10.0-555555?logo=react-router&logoColor=CA4245)](https://reactrouter.com)
+[![Webpack](https://img.shields.io/badge/Webpack%20|%20v5.78.0-555555?style=flat&logo=webpack&logoColor=8DD6F9)](https://webpack.js.org)
+[![Babel](https://img.shields.io/badge/Babel%20|%20v7.21.4-555555?style=flat&logo=babel&logoColor=F9DC3E)](https://babeljs.io)
+[![Jest](https://img.shields.io/badge/Jest%20|%20v29.5.0-555555?style=flat&logo=jest&logoColor=C21325)](https://jestjs.io)
+[![Testing Library](https://img.shields.io/badge/Testing%20Library%20|%20v9.2.0-555555?style=flat&logo=testinglibrary&logoColor=E33332)](https://testing-library.com)
 [![Node.js](https://img.shields.io/badge/Node.js%20|%20v18.9.0-555555?style=flat&logo=node.js&logoColor=339933)](https://nodejs.org/en)
 [![Npm](https://img.shields.io/badge/Npm%20|%20v8.19.1-555555?style=flat&logo=npm&logoColor=CB3837)](https://npmjs.com)
 [![Express](https://img.shields.io/badge/Express%20%7C%20v4.18.2-555555?style=flat&logo=express&logoColor=FFFFFF)](https://expressjs.com)
-[![ESLint](https://img.shields.io/badge/ESLint%20%7C%20v8.33.0-555555?style=flat&logo=eslint&logoColor=4B32C3)](https://eslint.org)
-[![Prettier](https://img.shields.io/badge/Prettier%20%7C%20v2.8.3-555555?style=flat&logo=prettier&logoColor=F7B93E)](https://prettier.io)
+[![ESLint](https://img.shields.io/badge/ESLint%20%7C%20v8.38.0-555555?style=flat&logo=eslint&logoColor=4B32C3)](https://eslint.org)
+[![Prettier](https://img.shields.io/badge/Prettier%20%7C%20v2.8.7-555555?style=flat&logo=prettier&logoColor=F7B93E)](https://prettier.io)
 
 All technologies and tools were used in the latest version at the time of creating this project.
 
@@ -127,7 +127,7 @@ $ npm run dev-server
 ### ESLint
 ESLint is a tool designed to find and fix problems in ECMAScript/JavaScript code. Thanks to its use, the code is more consistent and free from common bugs. It's also fully customizable. You can disable any rule that doesn't meet your project's requirements.
 
-Run the command below to check JavaScript code and find any existing problems.
+Run the command below to check the JavaScript code and find any existing problems.
 
 ```
 $ npm run eslint:check
@@ -143,7 +143,7 @@ $ npm run eslint:fix
 
 <!-- PRETTIER -->
 ### Prettier
-Prettier is an opinionated code formatter. This tool enforces a consistent code style and allows you to define the formatting rules according to your preferences. Its use will significantly save your time and energy. 
+Prettier is an opinionated code formatter. This tool enforces a consistent code style and allows you to define the formatting rules according to your preferences. Its use will significantly save your time and energy.
 
 In this project, there are two commands at your disposal. The first one checks that all files are formatted.
 
@@ -191,7 +191,7 @@ Use the command below to run webpack and create a production build.
 $ npm run build
 ```
 
-The next command starts the Express server. All static files generated by webpack will be served from the `./build` folder. The application will be launched at the following url: [http://localhost:3000](http://localhost:3000)
+The next command starts the server built with Node.js and Express. All static files generated by webpack will be served from the `./build` folder. The application will be launched at the following url: [http://localhost:3000](http://localhost:3000)
 
 ```
 $ npm run start
