@@ -21,7 +21,7 @@
 
 <!-- REACT BOILERPLATE -->
 # React Boilerplate
-A boilerplate designed to speed up the process of building new projects in the JavaScript programming language based on React and Redux libraries. It includes the basic configuration of tools such as Webpack, Babel, Jest, ESLint and Prettier. Don't waste your time configuring tools commonly used in web development. Instead, focus on creating amazing things!
+A boilerplate designed to speed up the process of building new projects in the JavaScript programming language based on the React library. It includes the basic configuration of tools such as Webpack, Babel, Jest, ESLint and Prettier. Don't waste your time configuring tools commonly used in web development. Instead, focus on creating amazing things!
 
 🚀 **Live demo:** <a href="https://lszymanski7-boilerplate-react.netlify.app">https://lszymanski7-boilerplate-react.netlify.app</a>
 

@@ -1,7 +1,7 @@
 {
     "name": "boilerplate-react",
     "version": "1.0.0",
-    "description": "A boilerplate designed to speed up the process of building new projects in the JavaScript programming language based on React and Redux libraries. It includes the basic configuration of tools such as Webpack, Babel, Jest, ESLint and Prettier.",
+    "description": "A boilerplate designed to speed up the process of building new projects in the JavaScript programming language based on the React library. It includes the basic configuration of tools such as Webpack, Babel, Jest, ESLint and Prettier.",
     "author": "Łukasz Szymański",
     "license": "MIT",
     "main": "src/index.js",
