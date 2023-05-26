@@ -25,4 +25,4 @@ const github = (owner, repo) => {
         })
 }
 
-export { github as default }
+export default github

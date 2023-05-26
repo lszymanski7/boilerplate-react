@@ -13,4 +13,4 @@ const App = () => {
     )
 }
 
-export { App as default }
+export default App
