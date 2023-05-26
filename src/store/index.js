@@ -13,4 +13,4 @@ const store = configureStore({
     devTools: process.env.NODE_ENV !== 'production'
 })
 
-export { store as default }
+export default store
