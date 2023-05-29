@@ -4,7 +4,7 @@ const HtmlWebpackPlugin = require('html-webpack-plugin')
 
 module.exports = {
     entry: {
-        main: path.resolve(__dirname, '../../src/index.js')
+        main: path.resolve(__dirname, '../../src/index.jsx')
     },
     output: {
         path: path.resolve(__dirname, '../../build'),
@@ -43,5 +43,8 @@ module.exports = {
                 removeComments: true
             }
         })
-    ]
+    ],
+    resolve: {
+        extensions: ['.js', '.jsx']
+    }
 }
