@@ -20,8 +20,8 @@
         "sourceType": "module"
     },
     "plugins": [
-        "import", 
-        "react", 
+        "import",
+        "react",
         "react-hooks"
     ],
     "rules": {
@@ -37,6 +37,12 @@
         "react/self-closing-comp": "warn",
         "react/jsx-curly-newline": "warn",
         "react/jsx-equals-spacing": ["warn", "never"],
+        "react/jsx-filename-extension": [
+            1,
+            {
+                "allow": "as-needed"
+            }
+        ],
         "react/jsx-props-no-multi-spaces": "warn"
     },
     "overrides": [
@@ -80,10 +86,15 @@
         }
     ],
     "settings": {
-        "react": {
-            "version": "detect"
+        "import/resolver": {
+            "node": {
+                "extensions": [".js", ".jsx"]
+            }
         },
         "jest": {
+            "version": "detect"
+        },
+        "react": {
             "version": "detect"
         }
     }
