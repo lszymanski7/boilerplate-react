@@ -37,12 +37,7 @@
         "react/self-closing-comp": "warn",
         "react/jsx-curly-newline": "warn",
         "react/jsx-equals-spacing": ["warn", "never"],
-        "react/jsx-filename-extension": [
-            1,
-            {
-                "allow": "as-needed"
-            }
-        ],
+        "react/jsx-filename-extension": "warn",
         "react/jsx-props-no-multi-spaces": "warn"
     },
     "overrides": [
