@@ -4,13 +4,13 @@ import Header from '../layouts/Header'
 import Home from '../pages/Home'
 
 const App = () => {
-    return (
-        <div className="fullscreen">
-            <Header />
-            <Home />
-            <Footer />
-        </div>
-    )
+  return (
+    <div className="fullscreen">
+      <Header />
+      <Home />
+      <Footer />
+    </div>
+  )
 }
 
 export default App
