@@ -1,29 +1,33 @@
 {
-    "arrowParens": "always",
-    "bracketSameLine": false,
-    "bracketSpacing": true,
-    "endOfLine": "crlf",
-    "jsxSingleQuote": false,
-    "printWidth": 100,
-    "semi": false,
-    "singleAttributePerLine": true,
-    "singleQuote": true,
-    "tabWidth": 4,
-    "trailingComma": "none",
-    "useTabs": false,
-    "overrides": [
-        {
-            "files": "**/*.html",
-            "options": {
-                "singleAttributePerLine": false
-            }
-        },
-        {
-            "files": ["**/*.css", "**/*.scss"],
-            "options": {
-                "semi": true,
-                "tabWidth": 2
-            }
-        }
-    ]
+  "arrowParens": "always",
+  "bracketSameLine": false,
+  "bracketSpacing": true,
+  "endOfLine": "crlf",
+  "jsxSingleQuote": false,
+  "printWidth": 100,
+  "semi": false,
+  "singleAttributePerLine": true,
+  "singleQuote": true,
+  "tabWidth": 2,
+  "trailingComma": "none",
+  "useTabs": false,
+  "overrides": [
+    {
+      "files": [
+        "**/*.html"
+      ],
+      "options": {
+        "singleAttributePerLine": false
+      }
+    },
+    {
+      "files": [
+        "**/*.css", 
+        "**/*.scss"
+      ],
+      "options": {
+        "semi": true
+      }
+    }
+  ]
 }

@@ -1,29 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg id="waves-shape" style="transform: rotate(180deg); transition: 0.3s" viewBox="0 0 1440 140" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <defs>
-        <linearGradient id="gradient-1" x1="0" x2="0" y1="1" y2="0">
-            <stop stop-color="rgba(97, 218, 251, 1)" offset="0%" />
-            <stop stop-color="rgba(97, 218, 251, 1)" offset="100%" />
-        </linearGradient>
-    </defs>
+  <defs>
+    <linearGradient id="gradient-1" x1="0" x2="0" y1="1" y2="0">
+      <stop stop-color="rgba(97, 218, 251, 1)" offset="0%" />
+      <stop stop-color="rgba(97, 218, 251, 1)" offset="100%" />
+    </linearGradient>
+  </defs>
 
-    <path style="transform: translate(0, 0px); opacity: 1" fill="url(#gradient-1)" d="M 0 126 L 120 98 L 240 112 L 360 28 L 480 126 L 600 70 L 720 112 L 840 112 L 960 98 L 1080 70 L 1200 0 L 1320 112 L 1440 0 L 1560 14 L 1680 70 L 1800 42 L 1920 70 L 2040 126 L 2160 28 L 2280 14 L 2400 112 L 2520 14 L 2640 112 L 2760 56 L 2880 112 L 2880 140 L 2760 140 L 2640 140 L 2520 140 L 2400 140 L 2280 140 L 2160 140 L 2040 140 L 1920 140 L 1800 140 L 1680 140 L 1560 140 L 1440 140 L 1320 140 L 1200 140 L 1080 140 L 960 140 L 840 140 L 720 140 L 600 140 L 480 140 L 360 140 L 240 140 L 120 140 L 0 140 Z" />
+  <path style="transform: translate(0, 0px); opacity: 1" fill="url(#gradient-1)" d="M 0 126 L 120 98 L 240 112 L 360 28 L 480 126 L 600 70 L 720 112 L 840 112 L 960 98 L 1080 70 L 1200 0 L 1320 112 L 1440 0 L 1560 14 L 1680 70 L 1800 42 L 1920 70 L 2040 126 L 2160 28 L 2280 14 L 2400 112 L 2520 14 L 2640 112 L 2760 56 L 2880 112 L 2880 140 L 2760 140 L 2640 140 L 2520 140 L 2400 140 L 2280 140 L 2160 140 L 2040 140 L 1920 140 L 1800 140 L 1680 140 L 1560 140 L 1440 140 L 1320 140 L 1200 140 L 1080 140 L 960 140 L 840 140 L 720 140 L 600 140 L 480 140 L 360 140 L 240 140 L 120 140 L 0 140 Z" />
 
-    <defs>
-        <linearGradient id="gradient-2" x1="0" x2="0" y1="1" y2="0">
-            <stop stop-color="rgba(4, 133, 168, 1)" offset="0%" />
-            <stop stop-color="rgba(39, 206, 250, 1)" offset="100%" />
-        </linearGradient>
-    </defs>
+  <defs>
+    <linearGradient id="gradient-2" x1="0" x2="0" y1="1" y2="0">
+      <stop stop-color="rgba(4, 133, 168, 1)" offset="0%" />
+      <stop stop-color="rgba(39, 206, 250, 1)" offset="100%" />
+    </linearGradient>
+  </defs>
 
-    <path style="transform: translate(0, 50px); opacity: 0.9" fill="url(#gradient-2)" d="M 0 0 L 120 42 L 240 70 L 360 0 L 480 28 L 600 14 L 720 0 L 840 126 L 960 0 L 1080 56 L 1200 84 L 1320 0 L 1440 42 L 1560 112 L 1680 0 L 1800 28 L 1920 28 L 2040 112 L 2160 84 L 2280 126 L 2400 14 L 2520 14 L 2640 70 L 2760 56 L 2880 42 L 2880 140 L 2760 140 L 2640 140 L 2520 140 L 2400 140 L 2280 140 L 2160 140 L 2040 140 L 1920 140 L 1800 140 L 1680 140 L 1560 140 L 1440 140 L 1320 140 L 1200 140 L 1080 140 L 960 140 L 840 140 L 720 140 L 600 140 L 480 140 L 360 140 L 240 140 L 120 140 L 0 140 Z" />
+  <path style="transform: translate(0, 50px); opacity: 0.9" fill="url(#gradient-2)" d="M 0 0 L 120 42 L 240 70 L 360 0 L 480 28 L 600 14 L 720 0 L 840 126 L 960 0 L 1080 56 L 1200 84 L 1320 0 L 1440 42 L 1560 112 L 1680 0 L 1800 28 L 1920 28 L 2040 112 L 2160 84 L 2280 126 L 2400 14 L 2520 14 L 2640 70 L 2760 56 L 2880 42 L 2880 140 L 2760 140 L 2640 140 L 2520 140 L 2400 140 L 2280 140 L 2160 140 L 2040 140 L 1920 140 L 1800 140 L 1680 140 L 1560 140 L 1440 140 L 1320 140 L 1200 140 L 1080 140 L 960 140 L 840 140 L 720 140 L 600 140 L 480 140 L 360 140 L 240 140 L 120 140 L 0 140 Z" />
 
-    <defs>
-        <linearGradient id="gradient-3" x1="0" x2="0" y1="1" y2="0">
-            <stop stop-color="rgba(4, 133, 168, 1)" offset="0%" />
-            <stop stop-color="rgba(39, 206, 250, 1)" offset="100%" />
-        </linearGradient>
-    </defs>
+  <defs>
+    <linearGradient id="gradient-3" x1="0" x2="0" y1="1" y2="0">
+      <stop stop-color="rgba(4, 133, 168, 1)" offset="0%" />
+      <stop stop-color="rgba(39, 206, 250, 1)" offset="100%" />
+    </linearGradient>
+  </defs>
 
-    <path style="transform: translate(0, 100px); opacity: 0.8" fill="url(#gradient-3)" d="M 0 84 L 120 56 L 240 112 L 360 14 L 480 0 L 600 98 L 720 56 L 840 0 L 960 126 L 1080 112 L 1200 14 L 1320 42 L 1440 84 L 1560 14 L 1680 14 L 1800 84 L 1920 0 L 2040 112 L 2160 70 L 2280 42 L 2400 126 L 2520 42 L 2640 0 L 2760 56 L 2880 14 L 2880 140 L 2760 140 L 2640 140 L 2520 140 L 2400 140 L 2280 140 L 2160 140 L 2040 140 L 1920 140 L 1800 140 L 1680 140 L 1560 140 L 1440 140 L 1320 140 L 1200 140 L 1080 140 L 960 140 L 840 140 L 720 140 L 600 140 L 480 140 L 360 140 L 240 140 L 120 140 L 0 140 Z" />
+  <path style="transform: translate(0, 100px); opacity: 0.8" fill="url(#gradient-3)" d="M 0 84 L 120 56 L 240 112 L 360 14 L 480 0 L 600 98 L 720 56 L 840 0 L 960 126 L 1080 112 L 1200 14 L 1320 42 L 1440 84 L 1560 14 L 1680 14 L 1800 84 L 1920 0 L 2040 112 L 2160 70 L 2280 42 L 2400 126 L 2520 42 L 2640 0 L 2760 56 L 2880 14 L 2880 140 L 2760 140 L 2640 140 L 2520 140 L 2400 140 L 2280 140 L 2160 140 L 2040 140 L 1920 140 L 1800 140 L 1680 140 L 1560 140 L 1440 140 L 1320 140 L 1200 140 L 1080 140 L 960 140 L 840 140 L 720 140 L 600 140 L 480 140 L 360 140 L 240 140 L 120 140 L 0 140 Z" />
 </svg>
