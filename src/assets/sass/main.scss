@@ -1,16 +1,9 @@
 // ================================================================================================
-// Imports
+// Main
 // ================================================================================================
 
-// The order in which the files should be imported.
-
-// 1. Abstracts
-// 2. Vendors
-// 3. Base
-// 4. Layout
-// 5. Components
-// 6. Pages
-// 7. Themes
+// Import order:
+// Abstracts ➞ Vendors ➞ Base ➞ Layout ➞ Components ➞ Pages ➞ Themes
 
 @charset 'utf-8';
 
@@ -27,8 +20,8 @@
   './base/typography';
 
 @import 
+  './layout/display-modes',
   './layout/footer',
-  './layout/fullscreen',
   './layout/header';
 
 @import 

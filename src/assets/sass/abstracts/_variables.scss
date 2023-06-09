@@ -2,8 +2,6 @@
 // Variables
 // ================================================================================================
 
-// Breakpoints
-
 $breakpoints: (
   'sm': 576px,
   'md': 768px,
@@ -11,8 +9,6 @@ $breakpoints: (
   'xl': 1200px,
   'xxl': 1400px
 );
-
-// Colors
 
 $colors: (
   'application': (
@@ -35,8 +31,6 @@ $colors: (
     'black-75': hsla(0, 0%, 0%, 0.75)
   )
 );
-
-// Font families
 
 $font-family-serif: Georgia, Times, 'Times New Roman', serif;
 $font-family-sans-serif: Arial, 'Helvetica Neue', Helvetica, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
