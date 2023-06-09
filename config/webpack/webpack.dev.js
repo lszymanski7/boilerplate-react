@@ -14,7 +14,11 @@ module.exports = merge(common, {
       // CSS | SCSS
       {
         test: /\.(css|scss)$/,
-        use: ['style-loader', 'css-loader', 'sass-loader']
+        use: [
+          'style-loader', 
+          'css-loader', 
+          'sass-loader'
+        ]
       },
       // Fonts
       {

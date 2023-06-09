@@ -17,7 +17,11 @@ module.exports = merge(common, {
       // CSS | SCSS
       {
         test: /\.(css|scss)$/,
-        use: [MiniCssExtractPlugin.loader, 'css-loader', 'sass-loader']
+        use: [
+          MiniCssExtractPlugin.loader, 
+          'css-loader', 
+          'sass-loader'
+        ]
       },
       // Fonts
       {
