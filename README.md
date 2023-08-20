@@ -64,7 +64,7 @@ A boilerplate designed to speed up the process of building new projects in the J
 ![JavaScript](https://img.shields.io/badge/JavaScript-555555?style=flat&logo=javascript&logoColor=F7DF1E)
 ![HTML](https://img.shields.io/badge/HTML-555555?style=flat&logo=html5&logoColor=E34F26)
 ![CSS](https://img.shields.io/badge/CSS-555555?style=flat&logo=css3&logoColor=1572B6)
-[![Sass](https://img.shields.io/badge/Sass%20|%20v1.66.0-555555?style=flat&logo=Sass&logoColor=CC6699)](https://sass-lang.com)
+[![Sass](https://img.shields.io/badge/Sass%20|%20v1.66.1-555555?style=flat&logo=Sass&logoColor=CC6699)](https://sass-lang.com)
 [![React](https://img.shields.io/badge/React%20|%20v18.2.0-555555?style=flat&logo=react&logoColor=61DAFB)](https://reactjs.org)
 [![Redux](https://img.shields.io/badge/Redux%20|%20v4.2.1-555555?style=flat&logo=redux&logoColor=916EC9)](https://redux.js.org)
 [![React Router](https://img.shields.io/badge/React%20Router%20|%20v6.15.0-555555?logo=react-router&logoColor=CA4245)](https://reactrouter.com)
