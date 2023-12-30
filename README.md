@@ -9,11 +9,12 @@
 <div align="center">
   
   ![Version](https://img.shields.io/badge/1.0.0-blue?label=Version&labelColor=555555)
-  ![GitHub Repository Size](https://img.shields.io/github/repo-size/lszymanski7/boilerplate-react?label=Size&labelColor=555555)
+  ![GitHub - Repository Size](https://img.shields.io/github/repo-size/lszymanski7/boilerplate-react?label=Size&labelColor=555555)
   [![License](https://img.shields.io/badge/License-MIT-yellow.svg?label=License&labelColor=555555)](https://github.com/lszymanski7/boilerplate-react/blob/main/LICENSE.md)
-  ![GitHub Last Commit](https://img.shields.io/github/last-commit/lszymanski7/boilerplate-react?label=Last%20Commit&labelColor=555555)
-  ![GitHub Pull Requests](https://img.shields.io/github/issues-pr/lszymanski7/boilerplate-react?label=Pull%20Requests&labelColor=555555)
-  ![GitHub Issues](https://img.shields.io/github/issues/lszymanski7/boilerplate-react?label=Issues&labelColor=555555)
+  ![GitHub - Last Commit](https://img.shields.io/github/last-commit/lszymanski7/boilerplate-react?label=Last%20Commit&labelColor=555555)
+  ![GitHub - Pull Requests](https://img.shields.io/github/issues-pr/lszymanski7/boilerplate-react?label=Pull%20Requests&labelColor=555555)
+  ![GitHub - Issues](https://img.shields.io/github/issues/lszymanski7/boilerplate-react?label=Issues&labelColor=555555)
+  ![GitHub Actions - CI/CD](https://img.shields.io/github/actions/workflow/status/lszymanski7/boilerplate-react/CI.yml?label=Build%20and%20Deploy&labelColor=555555)
   
 </div>
 
@@ -72,8 +73,8 @@ A boilerplate designed to speed up the process of building new projects in the J
 [![Babel](https://img.shields.io/badge/Babel%20|%20v7.22.10-555555?style=flat&logo=babel&logoColor=F9DC3E)](https://babeljs.io)
 [![Jest](https://img.shields.io/badge/Jest%20|%20v29.6.2-555555?style=flat&logo=jest&logoColor=C21325)](https://jestjs.io)
 [![Testing Library](https://img.shields.io/badge/Testing%20Library%20|%20v9.3.1-555555?style=flat&logo=testinglibrary&logoColor=E33332)](https://testing-library.com)
-[![Node.js](https://img.shields.io/badge/Node.js%20|%20v18.9.0-555555?style=flat&logo=node.js&logoColor=339933)](https://nodejs.org/en)
-[![Npm](https://img.shields.io/badge/Npm%20|%20v8.19.1-555555?style=flat&logo=npm&logoColor=CB3837)](https://npmjs.com)
+[![Node.js](https://img.shields.io/badge/Node.js%20|%20v18.17.1-555555?style=flat&logo=node.js&logoColor=339933)](https://nodejs.org/en)
+[![Npm](https://img.shields.io/badge/Npm%20|%20v9.6.7-555555?style=flat&logo=npm&logoColor=CB3837)](https://npmjs.com)
 [![Express](https://img.shields.io/badge/Express%20%7C%20v4.18.2-555555?style=flat&logo=express&logoColor=FFFFFF)](https://expressjs.com)
 [![ESLint](https://img.shields.io/badge/ESLint%20%7C%20v8.47.0-555555?style=flat&logo=eslint&logoColor=4B32C3)](https://eslint.org)
 [![Prettier](https://img.shields.io/badge/Prettier%20%7C%20v3.0.2-555555?style=flat&logo=prettier&logoColor=F7B93E)](https://prettier.io)
@@ -87,7 +88,7 @@ All technologies and tools were used in the latest version at the time of creati
 ### Prerequisites
 > **Note** Download [Node.js](https://nodejs.org/en/download) installer.
 
-This project was created with the Node.js (v18.9.0) runtime environment and the NPM (v8.19.1) for package management. Use the Node.js installer to install both of them on your system.
+This project was created with the Node.js (v18.17.1) runtime environment and the NPM (v9.6.7) for package management. Use the Node.js installer to install both of them on your system.
 
 <!-- INSTALLATION -->
 ### Installation
@@ -246,7 +247,7 @@ This project is licensed under the terms of the [MIT License](https://github.com
 <!-- LINKS -->
 ##
 <div align="center">
-  <p>If you have any questions or suggestions, please send me an <a href="mailto:lszymanski.info@gmail.com?subject=GitHub - Your subject here...">e-mail</a>. <br/> You can also find me on the following websites:</p>
+  <p>If you have any questions or suggestions, please send me an <a href="mailto:lszymanskiinfo@gmail.com?subject=GitHub - Your subject here...">e-mail</a>. <br/> You can also find me on the following websites:</p>
   
   [![Stack Overflow](https://img.shields.io/badge/Stack%20Overflow-F58025?style=flat&logo=stackoverflow&logoColor=white)](https://stackoverflow.com/users/18706083)
   [![GitLab](https://img.shields.io/badge/GitLab-555555?style=flat&logo=gitlab)](https://gitlab.com/lszymanski7)
